@@ -1,0 +1,14 @@
+- dep_lesson = lessons['all']
+- if dep_lesson.nil?
+  - @specs.each do |spec|
+    - lesson = lessons[spec]
+    - if not lesson.nil?
+      %td{ :class => 'lesson' }
+        %div{ :class => 'drag' }
+          = haml :lesson, :locals => { :lesson => lesson }
+    - elsif empty.member? 'all' or empty.member? 'spec'
+      %td{ :class => 'lesson' }
+- else
+  %td{ :colspan => 3, :align => 'center', :class => 'lesson' }
+    %div{ :class => 'drag' }
+      = haml :lesson, :locals => { :lesson => dep_lesson }

@@ -1,20 +1,25 @@
 !!!
 %html
   %head
-    %title Расписание #{@course}-го курса СтатМода
-    %script{ :src => '/js/redips-drag-source.js' }
+    %title Расписание #{@timetable.course.to_s}-го курса СтатМода
+    %script{ :src => '/js/redips-drag-min.js' }
     %script{ :src => '/js/redips-table-source.js' }
     %script{ :src => '/js/jquery-1.8.2.min.js'}
     %script{ :src => '/js/jquery.jeditable.mini.js'}
     %script{ :src => '/js/jquery.autocomplete.js'}
     %script{ :src => '/js/underscore-min.js' }
     %script{ :src => '/js/createNewLesson.js' }
-    %script{ :src => '/js/saveToXml.js' }
+    %script{ :src => '/js/get_timetable_json.js' }
     %link{ :rel => 'stylesheet', :type => 'text/css', :href => '/styles/TimeTable.css'}
     %link{ :rel => 'stylesheet', :type => 'text/css', :href => '/styles/jquery.autocomplete.css'}
 
     %body
     :javascript
+
+      function mergeTableCells() { 
+        REDIPS.table.merge('v', false);
+        REDIPS.table.merge();
+      }
 
       function makeEditable(classname) {
 
@@ -42,7 +47,7 @@
              height: inputHeight,
              width: inputWidth,
              autocomplete: {
-               data: #{@@stafflist_json}
+               data: #{@stafflist_json}
              }
            });
 
@@ -61,7 +66,8 @@
         });
       }
 
-      courses = #{@@courselist_json};
+      courses = #{@courselist_json};
+      course_ids = #{@courseidlist_json};
 
       $(document).ready(function () {
 
@@ -71,23 +77,13 @@
 
         $("#newlesson").one("click", createNewLesson);
 
-        REDIPS.drag.enable_table(false, 'LessonTable');
         REDIPS.drag.init();
-        REDIPS.drag.drop_option = 'switch';
-        REDIPS.drag.row_drop_option = 'switch';
+        REDIPS.drag.enableTable(false, 'LessonTable');
+        REDIPS.drag.dropMode = 'switch';
+        // REDIPS.drag.rowDropMode = 'switch';
         REDIPS.table.mark_nonempty = false;
-        REDIPS.table.color.cell = '#FFFFDD';
-        REDIPS.table.onmousedown('timetable', true);
-
-        REDIPS.drag.myhandler_row_dropped = function(tr, dummy2, rowIndex) {
-          var table = $('.TimeTable')[0];
-          var src = $(tr.children[0].children[0]);
-          var dst = $(table.rows[rowIndex].children[0].children[0]);
-            
-          var tmp = src.text();
-          src.text(dst.text());
-          dst.text(tmp);
-        }
+        REDIPS.table.color.cell = '#AADDAA';
+        REDIPS.table.onmousedown('timetablerow', true, 'classname');
 
         $.editable.addInputType('autocomplete', {
           element: $.editable.types.text.element,
@@ -98,108 +94,107 @@
 
         makeEditable('editable');
 
-        function setXmlData() {
-          $('.xmldata').val(getTimeTableXml());
+        function setJsonData() {
+          data = { 'timetable': window.getTimeTableJson(),
+                   'buffer': $("#stacktable").html() }
+          $('.jsondata').val(JSON.stringify(data));
           return true;
         }
 
-        $('#xmldownloadform').submit(setXmlData);
-        $('#xmlsaveform').submit(setXmlData);
+        $('#xmldownloadform').submit(setJsonData);
+        $('#xmlsaveform').submit(setJsonData);
 
         $('option').click(function ()
         {
           $(this).closest('form').submit();
         });
 
-        $('.FileSelector').prop('selectedIndex', -1);
+        $('#FileSelector').prop('selectedIndex', -1);
+
+        function updateCourseIdentifiers() {
+          $('#courseIds').html(course_ids[$("#sem").attr('value')]);
+        }
+
+        $('#sem').change(function() {
+          updateCourseIdentifiers(); 
+        });
+
+        updateCourseIdentifiers();
+        $('#courseIds').prop('selectedIndex', -1);
       });
 
-    %div{ :class => 'uppanel'}
-      %input{ :id => 'year', :class => 'YearSelector', :value => @timetable.year }
-        %label{ :for => 'year', :class => 'YearLabel' }
+    %div{ :id => 'uppanel'}
+      %input{ :id => 'year', :value => @timetable.year }
+        %label{ :for => 'year', :id => 'YearLabel' }
           Год:
-      %input{ :id => 'sem', :class => 'SemesterSelector', :value => @timetable.semester }
-        %label{ :for => 'sem', :class => 'SemesterLabel' }
+      %input{ :id => 'sem', :value => @timetable.semester }
+        %label{ :for => 'sem', :id => 'SemesterLabel' }
           Семестр:
 
-      %form{ :action => '/loadfile', :method => 'post' }
-        %select{ :onchange => 'this.form.submit()', :name => 'filename', :class => 'FileSelector' }
-          - @@filenames.each do |fn|
+      %form{ :id => 'fileloadform', :action => '/loadfile', :method => 'post' }
+        %input{ :type => 'hidden', :class => 'jsondata', :name => 'jsondata'}
+        %select{ :onchange => '$(".jsondata").val(JSON.stringify({"buffer":$("#stacktable").html()})); this.form.submit()', :name => 'filename', :id => 'FileSelector' }
+          - @filenames.each do |fn|
             - if fn == @filename
               %option{ :value => fn, :selected => 'selected'}#{fn}
             - else
               %option{ :value => fn}#{fn}
-      %div{:class => 'FileLabel' }
+      %div{:id => 'FileLabel' }
         Файл:
 
-      %button{ :class => 'MergeButton', :onclick => 'REDIPS.table.merge();' }
+      %button{ :id => 'MergeButton', :onclick => 'mergeTableCells();' }
         Объединить ячейки
 
-      %button{ :class => 'SplitButton', :onclick => 'REDIPS.table.split();' }
+      %label{ :id => 'SplitButtonsLabel' }
         Разбить ячейки
+      %button{ :id => 'SplitButtonH', :onclick => 'REDIPS.table.split("h");' }
+        По направлениям
+      %button{ :id => 'SplitButtonV', :onclick => 'REDIPS.table.split("v");' }
+        По четности недели
 
-      %form{ :class => 'DownloadForm', :action => '/download', :target => '_blank', :method => 'POST', :id => 'xmldownloadform' }
-        %input{ :type => 'hidden', :class => 'xmldata', :name => 'xmldata'}
+      %form{ :id => 'DownloadForm', :action => '/download', :target => '_blank', :method => 'POST', :id => 'xmldownloadform' }
+        %input{ :type => 'hidden', :class => 'jsondata', :name => 'jsondata'}
         %input{ :type => 'hidden', :name => 'filename', :value => @filename }
-        %input{ :type => 'submit', :class => 'DownloadButton', :value => 'Скачать XML' }
+        %input{ :type => 'submit', :id => 'DownloadButton', :value => 'Скачать XML' }
             
-      %form{ :class => 'SaveForm', :action => '/save', :method => 'POST', :id => 'xmlsaveform' }
-        %input{ :type => 'hidden', :class => 'xmldata', :name => 'xmldata'}
-        %input{ :type => 'text', :name => 'filename', :value => @filename, :class => 'SaveFilename' }
-        %input{ :type => 'submit', :class => 'SaveButton', :value => 'Сохранить как' }
+      %form{ :id => 'SaveForm', :action => '/save', :method => 'POST', :id => 'xmlsaveform' }
+        %input{ :type => 'hidden', :class => 'jsondata', :name => 'jsondata'}
+        %input{ :type => 'text', :name => 'filename', :value => @filename, :id => 'SaveFilename' }
+        %input{ :type => 'submit', :id => 'SaveButton', :value => 'Сохранить как' }
 
-      %form{ :class => 'NewForm', :action => '/new'}
-        %input{ :type => 'submit', :class => 'NewButton', :value => 'Создать новое расписание' }
+      %form{ :id => 'NewForm', :action => '/new'}
+        %input{ :type => 'submit', :id => 'NewButton', :value => 'Создать новое расписание' }
+
+      %form{ :id => 'NewFromIdForm' }
+        %label{ :id => 'courseIdsLabel' }
+          Создать пару по идентификатору
+        %select{ :onchange => 'createNewLessonFromId()', :id => 'courseIds' }
 
     %div{ :id => 'drag' }
-      %table{ :id => 'helpertable', :class => 'HelperTable' }
+      %table{ :id => 'helpertable' }
         %tbody
           %tr
             %td{ :style => 'height: 62px', :align => 'center', :id => 'newlesson', :class => 'mark'}
               Нажмите, чтобы создать новую пару
 
-      %div{ :class => 'StackTableDiv' }
-        %table{ :id => 'stacktable', :class => 'StackTable', :border => '1px' }
-          %tbody
-            - 12.times do
-              %tr
-                %td{ :style => 'height: 64px', :align => 'center' }
+      %div{ :id => 'StackTableDiv' }
+        %table{ :id => 'stacktable', :border => '1px' }
+          - unless @buffer.nil?
+            = @buffer
+          - else
+            %tbody
+              - 12.times do
+                %tr
+                  %td{ :style => 'height: 64px', :align => 'center' }
 
-      - specs = ['sm', 'mm', 'sa']
-      - specnames = ['СМ', 'ММ', 'САПР']
       %div{ :class => 'empty'}
-      %table{ :id => 'timetable', :class => 'TimeTable', :border => '1px' }
+      %table{ :class => 'timetablerow', :border => '1px' }
         %tbody
           %tr
-            %th{ :width => '2%', :class => 'mark', :bgcolor => '#ddddff' }
-            - specnames.each do |name|
-              %td{ :bgcolor => '#ddddff', :align => 'center', :width => '33%', :class => 'mark' }
-                = name
-          - @timetable.weekday_tables.each do |weekday|
-            %tr
-              %th{ :class => 'mark', :bgcolor => '#ffffcd' }
-
-              %th{ :colspan => 3, :bgcolor => '#ffffcd', :class => 'mark' }
-                = weekday.name
-
-            - 1.upto(5).each do |index|
-              %tr{ :class => weekday.id }
-                %th{ :bgcolor => '#f6956f', :style => 'height: 64px', :class => 'rowhandler' }
-                  %div{ :class => 'drag row' }
-                    = index
-
-                - double_class = weekday.getDoubleClass(index)
-                - dep_lesson = if double_class.nil? then nil else double_class.getLessonForSpec 'all' end
-                - if dep_lesson.nil?
-                  - specs.each do |spec|
-                    %td{ :class => 'single lesson' }
-                      - unless double_class.nil?
-                        - lesson = double_class.getLessonForSpec(spec)
-                        - unless lesson.nil?
-                          %div{ :class => 'drag' }
-                            = haml :lesson, :locals => { :lesson => lesson }
-                - else
-                  %td{ :colspan => 3, :align => 'center', :class => 'single lesson' }
-                    - unless dep_lesson.nil?
-                      %div{ :class => 'drag' }
-                        = haml :lesson, :locals => { :lesson => dep_lesson }
+            %th{ :width => '2%', :class => 'mark', :bgcolor => '#d8bfd8' }
+            - @specnames.each do |name|
+              %td{ :bgcolor => '#d8bfd8', :align => 'center', :class => 'mark' }
+                %b
+                  = name
+      - @timetable.weekday_tables.each do |weekday|
+        = haml :weekday, :locals => { :weekday => weekday }

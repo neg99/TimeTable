@@ -5,7 +5,11 @@ class TimeTable
     attribute :semester, Integer
 
     def course
-      (semester + 1) / 2
+      if semester.nil?
+        ''
+      else
+        (semester + 1) / 2
+      end
     end
 
     has_many :weekday_tables, WeekdayTable, :tag => 'weekday'
@@ -16,10 +20,16 @@ class TimeTable
           dc.lessons.each do |lesson|
             if lesson.course.name.nil? and not lesson.course.id.nil?
               course_info = courses[lesson.course.id]
-              unless course_info.nil? or course_info.instructor.nil?
-                lesson.course.name = course_info.name
-                lesson.course.prof = course_info.instructor.name
+              next if course_info.nil?
+
+              prof = if lesson.course.part then
+                course_info.getInstructor(lesson.course.part)
+              else
+                course_info.instructor
               end
+
+              lesson.course.name = course_info.name
+              lesson.course.prof = prof.name unless prof.nil?
             end
           end
         end

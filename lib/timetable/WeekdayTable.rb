@@ -16,7 +16,13 @@ class WeekdayTable
 
   def getDoubleClass(index)
     @index_to_double_class ||= Hash[*(double_classes.map{|dc| [dc.index, dc]}.flatten)]
-    @index_to_double_class[index]
+    result = @index_to_double_class[index]
+    if result.nil?
+      result = DoubleClass.new
+      result.index = index
+      result.lessons = []
+    end
+    result
   end
 
 end

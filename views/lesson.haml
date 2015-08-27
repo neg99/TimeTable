@@ -4,14 +4,19 @@
     %input{ :type => 'button', :class => 'DeleteButton', :style => 'cursor: pointer' }
 
   %div{ :style => 'display: table-cell; height: 100%; vertical-align: middle;'}
-    %div{ :class => "#{rowclass} name", :align => 'center'}
-      = lesson.course.name
-    %div{ :class => "#{rowclass} prof", :align => 'center', :style => 'height:20px' }
-      = lesson.course.prof
-    %div{ :class => "#{rowclass} loc", :align => 'center', :style => 'height:20px' }
+    - unless lesson.course.id.nil?
+      %div{ :class => 'fixed name', :align => 'center' }
+        = lesson.course.name
+      %div{ :class => 'fixed prof', :align => 'center' }
+        = lesson.course.prof
+      %input{ :class => 'lessonid', :type => 'hidden', :value => lesson.course.id }
+      - unless lesson.course.part.nil?
+        %input{ :class => 'coursepart', :type => 'hidden', :value => lesson.course.part }
+    - else 
+      %div{ :class => "#{rowclass} name", :align => 'center' }
+        = lesson.course.name
+      %div{ :class => "#{rowclass} prof", :align => 'center' }
+        = lesson.course.prof
+    %div{ :class => "#{rowclass} loc", :align => 'center' }
       = lesson.location
-
-  %div{ :style => 'display: table-cell; width: 20px; height: 100%; padding-right:2px; vertical-align: middle;', :align => 'right' }
-    %input{ :type => 'checkbox', :checked => lesson.numerator? }
-    %hr{ :size => 1}
-    %input{ :type => 'checkbox', :checked => lesson.denominator? }
+  %div{ :style => 'display: table-cell; width: 20px; height: 100%; padding-right:2px; padding-bottom:2px;', :align => 'right' }
