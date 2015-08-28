@@ -1,14 +1,16 @@
-Отображение расписания СтатМода на Ruby+JS.
+﻿Отображение расписания СтатМода на Ruby+JS.
 
 ## Установка и запуск
 
-1. Установите интерпретатор [Ruby](http://www.ruby-lang.org/en/downloads/)
+1. Установите интерпретатор [Ruby](http://rubyinstaller.org/downloads/) версии 1.9, про номер верии см. здесь [cross-compile](https://github.com/sparklemotion/nokogiri/issues/1256)
 
-2. Установите [Bundler](http://gembundler.com/)
+2. Установите [Bundler](http://gembundler.com/) - Не нужно. Просто запустить cmd из корневой папки и потом >gem install bundle
 
 3. Запустите `bundle install` из корневой директории проекта.
 
 4. Запуститe `ruby app.rb`
+
+5. Теперь можно попасть в расписание как http://127.0.0.1:4567/3course
 
 ## Онлайн-версия
 
