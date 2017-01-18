@@ -16,8 +16,22 @@
     <two_hours no="1">
     </two_hours>
     <two_hours no="2">
+      <lesson year_no="6" type="chair" spec="sm">
+        <location>4526</location>
+        <course id="sm_histmath">
+          <name>История и методология прикладной математики</name>
+          <prof id="sm_ermakov">Ермаков<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>С.М.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="3">
+      <lesson year_no="6" type="chair" spec="sm">
+        <location>4526</location>
+        <course id="sm_stoch_comp2">
+          <name>Стохастические вычислительные методы</name>
+          <prof id="sm_ermakov">Ермаков<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>С.М.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="4">
     </two_hours>

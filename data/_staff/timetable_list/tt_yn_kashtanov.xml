@@ -28,22 +28,8 @@
     <two_hours no="1">
     </two_hours>
     <two_hours no="2">
-      <lesson year_no="4" type="chair" spec="sa">
-        <location>2414</location>
-        <course id="sa_prog_cpp_advanced">
-          <name>Спец. выч. практикум</name>
-          <prof id="yn_kashtanov">Каштанов<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Ю.Н.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="3">
-      <lesson year_no="4" type="chair" spec="sa">
-        <location>2414</location>
-        <course id="sa_prog_threads">
-          <name>Практикум по совр. прикл. программированию</name>
-          <prof id="yn_kashtanov">Каштанов<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Ю.Н.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="4">
     </two_hours>
@@ -52,8 +38,22 @@
   </weekday>
   <weekday id="thu">
     <two_hours no="1">
+      <lesson year_no="4" type="chair" spec="sa">
+        <location>2446</location>
+        <course id="bsa_prog_cpp_advanced">
+          <name>Программирование и дискретные системы</name>
+          <prof id="yn_kashtanov">Каштанов<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Ю.Н.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="2">
+      <lesson year_no="6" type="chair" spec="sa">
+        <location>1506</location>
+        <course id="sa_fin_prog">
+          <name>Параллельное программирование вероятностных задач</name>
+          <prof id="yn_kashtanov">Каштанов<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Ю.Н.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="3">
     </two_hours>
@@ -64,6 +64,13 @@
   </weekday>
   <weekday id="fri">
     <two_hours no="1">
+      <lesson year_no="4" type="chair" spec="sa">
+        <location>2414</location>
+        <course id="bsa_prog_threads">
+          <name>Практикум по совр. прикл. программированию</name>
+          <prof id="yn_kashtanov">Каштанов<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Ю.Н.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="2">
     </two_hours>
@@ -80,13 +87,6 @@
     <two_hours no="2">
     </two_hours>
     <two_hours no="3">
-      <lesson year_no="4" type="chair" spec="all">
-        <location>3506</location>
-        <course id="all_finmodel">
-          <name>Задачи фин. мат. и стат. мод-ия</name>
-          <prof id="yn_kashtanov">Каштанов<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Ю.Н.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="4">
     </two_hours>

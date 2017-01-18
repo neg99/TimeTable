@@ -52,15 +52,15 @@
     <two_hours no="1">
     </two_hours>
     <two_hours no="2">
-    </two_hours>
-    <two_hours no="3">
       <lesson year_no="4" type="dep" spec="all">
         <location>07</location>
-        <course id="all_stat" part="lect">
+        <course id="ball_stat" part="lect">
           <name>Мат. модел. и обработка данных</name>
           <prof id="ms_ermakov">Ермаков<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>М.С.</prof>
         </course>
       </lesson>
+    </two_hours>
+    <two_hours no="3">
     </two_hours>
     <two_hours no="4">
     </two_hours>

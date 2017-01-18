@@ -14,13 +14,6 @@
   </weekday>
   <weekday id="tue">
     <two_hours no="1">
-      <lesson year_no="5" type="chair" spec="sa">
-        <location>2507</location>
-        <course id="sa_automaton_model">
-          <name>Автоматное моделирование</name>
-          <prof id="en_mosyagina">Мосягина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Е.Н.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="2">
     </two_hours>
@@ -33,13 +26,6 @@
   </weekday>
   <weekday id="wed">
     <two_hours no="1">
-      <lesson year_no="3" type="chair" spec="mm">
-        <location>3502</location>
-        <course id="mm_automaton_base">
-          <name>Основы теории автоматных моделей</name>
-          <prof id="en_mosyagina">Мосягина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Е.Н.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="2">
     </two_hours>
@@ -52,13 +38,6 @@
   </weekday>
   <weekday id="thu">
     <two_hours no="1">
-      <lesson year_no="5" type="chair" spec="sa">
-        <location>2502</location>
-        <course id="sa_automaton_model">
-          <name>Автоматное моделирование</name>
-          <prof id="en_mosyagina">Мосягина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Е.Н.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="2">
     </two_hours>

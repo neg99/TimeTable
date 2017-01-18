@@ -16,13 +16,6 @@
     <two_hours no="1">
     </two_hours>
     <two_hours no="2">
-      <lesson year_no="4" type="chair" spec="sa">
-        <location>3524</location>
-        <course id="sa_montecarlo">
-          <name>Численные методы Монте-Карло</name>
-          <prof id="tm_tovstik">Товстик<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Т.М.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="3">
     </two_hours>
@@ -47,22 +40,8 @@
     <two_hours no="1">
     </two_hours>
     <two_hours no="2">
-      <lesson year_no="5" type="chair" spec="sa">
-        <location>4526</location>
-        <course id="sa_simul_stoch_proc">
-          <name>Моделирование случайных процессов и принятие решений (Моделирование случайных процессов)</name>
-          <prof id="tm_tovstik">Товстик<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Т.М.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="3">
-      <lesson year_no="5" type="chair" spec="sa">
-        <location>4526</location>
-        <course id="sa_simul_stoch_proc_pract">
-          <name>Моделирование случайных процессов</name>
-          <prof id="tm_tovstik">Товстик<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Т.М.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="4">
     </two_hours>
@@ -75,8 +54,22 @@
     <two_hours no="2">
     </two_hours>
     <two_hours no="3">
+      <lesson year_no="4" type="chair" spec="sa">
+        <location>3522</location>
+        <course id="bsa_montecarlo">
+          <name>Численные методы Монте-Карло</name>
+          <prof id="tm_tovstik">Товстик<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Т.М.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="4">
+      <lesson year_no="4" type="chair" spec="sa">
+        <location>3522</location>
+        <course id="bsa_montecarlo">
+          <name>Численные методы Монте-Карло</name>
+          <prof id="tm_tovstik">Товстик<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Т.М.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="5">
     </two_hours>

@@ -14,12 +14,42 @@
   </weekday>
   <weekday id="tue">
     <two_hours no="1">
+      <lesson year_no="3" type="chair" spec="sm">
+        <location>2406</location>
+        <course id="bsm_stat_intro">
+          <name>Введение в обработку данных</name>
+          <prof id="ai_korobeynikov">Коробейников<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>А.И.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="2">
+      <lesson year_no="4" type="dep" spec="all">
+        <location>3315</location>
+        <course id="ball_communication">
+          <name>Современные средства и методы научной коммуникации в области статистического моделирования</name>
+          <prof id="ai_korobeynikov">Коробейников<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>А.И.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="3">
+      <lesson year_no="4" type="dep" spec="all">
+        <location>3532</location>
+        <fortnightly type="1">
+        </fortnightly>
+        <course id="ball_stat" part="pract">
+          <name>Мат. модел. и обработка данных</name>
+          <prof id="ai_korobeynikov">Коробейников<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>А.И.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="4">
+      <lesson year_no="6" type="chair" spec="sa">
+        <location>4399</location>
+        <course id="sa_communication">
+          <name>Научная и компьютерная коммуникация в современных условиях - I</name>
+          <prof id="ai_korobeynikov">Коробейников<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>А.И.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="5">
     </two_hours>
@@ -30,37 +60,21 @@
     <two_hours no="2">
     </two_hours>
     <two_hours no="3">
-      <lesson year_no="3" type="chair" spec="sm">
-        <location>2444-I</location>
-        <course id="sm_stat_intro">
-          <name>Введение в обработку данных</name>
-          <prof id="ai_korobeynikov">Коробейников<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>А.И.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="4">
-    </two_hours>
-    <two_hours no="5">
-      <lesson year_no="4" type="chair" spec="all">
-        <location>2412</location>
-        <fortnightly type="1">
-        </fortnightly>
-        <course id="all_stat" part="pract">
-          <name>Мат. модел. и обработка данных</name>
+      <lesson year_no="3" type="dep" spec="all">
+        <location>2446</location>
+        <course id="ball_tex">
+          <name>Выч. практикум</name>
           <prof id="ai_korobeynikov">Коробейников<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>А.И.</prof>
         </course>
       </lesson>
+    </two_hours>
+    <two_hours no="5">
     </two_hours>
   </weekday>
   <weekday id="thu">
     <two_hours no="1">
-      <lesson year_no="4" type="chair" spec="all">
-        <location>2508</location>
-        <course id="all_communication">
-          <name>Современные средства и методы научной коммуникации в области статистического моделирования</name>
-          <prof id="ai_korobeynikov">Коробейников<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>А.И.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="2">
     </two_hours>

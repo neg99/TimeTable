@@ -20,13 +20,6 @@
     <two_hours no="3">
     </two_hours>
     <two_hours no="4">
-      <lesson year_no="3" type="chair" spec="sa">
-        <location>2518/2408</location>
-        <course id="sa_prog_c_lang">
-          <name>Алгоритмические языки</name>
-          <prof id="vb_christinich">Христинич<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>В.Б.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="5">
     </two_hours>
@@ -51,13 +44,6 @@
     <two_hours no="3">
     </two_hours>
     <two_hours no="4">
-      <lesson year_no="3" type="chair" spec="sa">
-        <location>2408</location>
-        <course id="sa_prog_c_pract">
-          <name>Выч. практика</name>
-          <prof id="vb_christinich">Христинич<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>В.Б.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="5">
     </two_hours>

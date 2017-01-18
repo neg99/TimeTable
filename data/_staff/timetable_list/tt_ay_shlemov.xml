@@ -14,22 +14,8 @@
   </weekday>
   <weekday id="tue">
     <two_hours no="1">
-      <lesson year_no="3" type="chair" spec="mm">
-        <location>2408</location>
-        <course id="mm_prog_c_pract">
-          <name>Выч. практика</name>
-          <prof id="ay_shlemov">Шлемов<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>А.Ю.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="2">
-      <lesson year_no="3" type="chair" spec="mm">
-        <location>2511</location>
-        <course id="mm_prog_c_lang">
-          <name>Теория и практика программирования</name>
-          <prof id="ay_shlemov">Шлемов<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>А.Ю.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="3">
     </two_hours>

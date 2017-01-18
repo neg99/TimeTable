@@ -1,58 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
-<timetable year="2015" semester="5">
+<timetable year="2016" semester="5">
     <weekday id="mon">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
-                    <name>Математический анализ</name>
-                    <prof>Потепун</prof>
+                    <name>Физ.культура</name>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location>03</location>
+                <location>07</location>
                 <course>
-                    <name>Экстремальные задачи</name>
-                    <prof>Малоземов</prof>
+                    <name>Математический анализ</name>
+                    <prof>Потепун А.В.</prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location>03</location>
                 <course>
-                    <name>Физ.культура</name>
-                    <prof>Преподаватель</prof>
+                    <name>Экстремальные задачи</name>
+                    <prof>Малоземов В.Н.</prof>
                 </course>
-                <fortnightly type="1"/>
-            </lesson>
-            <lesson type="dep" spec="all">
-                <location>Аудитория</location>
-                <course>
-                    <name>Функциональный анализ</name>
-                    <prof>Виденский</prof>
-                </course>
-                <fortnightly type="2"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
                     <name>Англ.яз.</name>
-                    <prof>Преподаватель</prof>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="5">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
                     <name>Англ.яз.</name>
-                    <prof>Преподаватель</prof>
+                    <prof></prof>
                 </course>
                 <fortnightly type="1"/>
             </lesson>
@@ -61,17 +52,17 @@
     <weekday id="tue">
         <two_hours no="1">
             <lesson type="chair" spec="sa">
-                <location>2444-1</location>
+                <location>2444-2</location>
                 <course id="bmm_prog_c_pract"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>2406</location>
                 <course id="bsm_stat_intro"/>
             </lesson>
         </two_hours>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>2448</location>
                 <course id="bmm_prog_c_lang"/>
             </lesson>
             <lesson type="chair" spec="sm">
@@ -81,10 +72,10 @@
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location>2514</location>
                 <course>
                     <name>Математический анализ</name>
-                    <prof>Виденский</prof>
+                    <prof>Савельева А.Г.</prof>
                 </course>
             </lesson>
         </two_hours>
@@ -93,7 +84,7 @@
                 <location>01</location>
                 <course>
                     <name>Безопасность жизнедеятельности</name>
-                    <prof>Преподаватель</prof>
+                    <prof>Хмелев</prof>
                 </course>
             </lesson>
         </two_hours>
@@ -102,7 +93,7 @@
                 <location>01</location>
                 <course>
                     <name>Безопасность жизнедеятельности</name>
-                    <prof>Преподаватель</prof>
+                    <prof>Хмелев</prof>
                 </course>
                 <fortnightly type="1"/>
             </lesson>
@@ -111,10 +102,10 @@
     <weekday id="wed">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location>3506</location>
                 <course>
                     <name>Экстремальные задачи</name>
-                    <prof>Соловьева</prof>
+                    <prof>Соловьева Н.А.</prof>
                 </course>
                 <fortnightly type="2"/>
             </lesson>
@@ -124,29 +115,37 @@
                 <location>03</location>
                 <course>
                     <name>Экстремальные задачи</name>
-                    <prof>Малоземов</prof>
+                    <prof>Малоземов В.Н.</prof>
                 </course>
                 <fortnightly type="1"/>
+            </lesson>
+            <lesson type="dep" spec="all">
+                <location></location>
+                <course>
+                    <name>Физкультура</name>
+                    <prof></prof>
+                </course>
+                <fortnightly type="2"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>3506</location>
                 <course id="ball_simul_discr"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2446</location>
                 <course id="ball_tex"/>
             </lesson>
         </two_hours>
         <two_hours no="5">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
                     <name>Физ.культура</name>
-                    <prof>Преподаватель</prof>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
@@ -154,53 +153,68 @@
     <weekday id="thu">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2528</location>
                 <course id="ball_teorver_pract"/>
             </lesson>
         </two_hours>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>4526</location>
                 <course id="bsa_graph_theory"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>1509</location>
                 <course id="bsm_prog_c_lang"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
                     <name>Англ.язык</name>
-                    <prof>Преподаватель</prof>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location>06</location>
                 <course>
                     <name>Теория вероятностей</name>
-                    <prof>Фролов</prof>
+                    <prof>Фролов А.Н.</prof>
                 </course>
             </lesson>
         </two_hours>
-        <two_hours no="5">
-            <lesson type="dep" spec="all">
-                <location>Аудитория</location>
-                <course>
-                    <name>Физ.культура</name>
-                    <prof>Преподаватель</prof>
-                </course>
-                <fortnightly type="1"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="5"/>
     </weekday>
     <weekday id="fri">
-        <two_hours no="1"/>
-        <two_hours no="2"/>
-        <two_hours no="3"/>
+        <two_hours no="1">
+            <lesson type="dep" spec="all">
+                <location></location>
+                <course>
+                    <name>Военная подготовка</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+        </two_hours>
+        <two_hours no="2">
+            <lesson type="dep" spec="all">
+                <location></location>
+                <course>
+                    <name>Военная подготовка</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+        </two_hours>
+        <two_hours no="3">
+            <lesson type="dep" spec="all">
+                <location></location>
+                <course>
+                    <name>Военная подготовка</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+        </two_hours>
         <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
@@ -208,24 +222,33 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location>14</location>
+                <location>31</location>
                 <course>
                     <name>Функциональный анализ</name>
-                    <prof>Баранов</prof>
-                </course>
-            </lesson>
-        </two_hours>
-        <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location>14</location>
-                <course>
-                    <name>Функциональный анализ</name>
-                    <prof>Баранов</prof>
+                    <prof>Храбров А.И.</prof>
                 </course>
                 <fortnightly type="1"/>
             </lesson>
         </two_hours>
-        <two_hours no="4"/>
+        <two_hours no="3">
+            <lesson type="dep" spec="all">
+                <location>11</location>
+                <course>
+                    <name>Функциональный анализ</name>
+                    <prof>Додонов Н.Ю.</prof>
+                </course>
+            </lesson>
+        </two_hours>
+        <two_hours no="4">
+            <lesson type="dep" spec="all">
+                <location>11</location>
+                <course>
+                    <name>Функциональный анализ</name>
+                    <prof>Додонов Н.Ю.</prof>
+                </course>
+                <fortnightly type="1"/>
+            </lesson>
+        </two_hours>
         <two_hours no="5"/>
     </weekday>
 </timetable>

@@ -17,20 +17,27 @@
     </two_hours>
     <two_hours no="2">
       <lesson year_no="3" type="chair" spec="sm">
-        <location>3502</location>
-        <course id="sm_prog_c_lang">
-          <name>Техника программирования</name>
+        <location>2408</location>
+        <course id="bsm_prog_c_pract">
+          <name>Спец.выч. практикум</name>
           <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
         </course>
       </lesson>
     </two_hours>
     <two_hours no="3">
+      <lesson year_no="5" type="chair" spec="sm">
+        <location>4399</location>
+        <course id="sm_mva_comp">
+          <name>Анализ многомерных данных на компьютере</name>
+          <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="4">
-      <lesson year_no="3" type="chair" spec="sm">
-        <location>2414</location>
-        <course id="sm_prog_c_pract">
-          <name>Выч. практика</name>
+      <lesson year_no="6" type="chair" spec="sm">
+        <location>4399</location>
+        <course id="sm_communication">
+          <name>Научная и компьютерная коммуникация в современных условиях - I</name>
           <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
         </course>
       </lesson>
@@ -42,54 +49,40 @@
     <two_hours no="1">
     </two_hours>
     <two_hours no="2">
-      <lesson year_no="4" type="chair" spec="sm">
-        <location>2412</location>
-        <course id="sm_prog_optimization">
-          <name>Практикум по совр. прикл. программированию</name>
-          <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="3">
-      <lesson year_no="4" type="chair" spec="sm">
-        <location>2412</location>
-        <course id="sm_prog_cpp_advanced">
-          <name>Спец. выч. практикум</name>
-          <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="4">
-      <lesson year_no="4" type="chair" spec="sa">
-        <location>3506</location>
-        <course id="sa_appl_stat">
-          <name>Численные методы статистики</name>
-          <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="5">
     </two_hours>
   </weekday>
   <weekday id="thu">
     <two_hours no="1">
-    </two_hours>
-    <two_hours no="2">
-    </two_hours>
-    <two_hours no="3">
-      <lesson year_no="5" type="chair" spec="sm">
-        <location>1508</location>
-        <course id="sm_stat_timeseries">
-          <name>Стат. анализ временных рядов</name>
+      <lesson year_no="4" type="chair" spec="sm">
+        <location>4526</location>
+        <course id="bsm_appl_stat">
+          <name>Задачи статистического анализа данных</name>
           <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
         </course>
       </lesson>
     </two_hours>
+    <two_hours no="2">
+      <lesson year_no="3" type="chair" spec="sm">
+        <location>1509</location>
+        <course id="bsm_prog_c_lang">
+          <name>Техника программирования</name>
+          <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
+        </course>
+      </lesson>
+    </two_hours>
+    <two_hours no="3">
+    </two_hours>
     <two_hours no="4">
-      <lesson year_no="5" type="chair" spec="sm">
-        <location>1512</location>
-        <course id="sm_timeseries_ssa">
-          <name>Статистическая обработка временных рядов  (Главные компоненты временных рядов)</name>
+      <lesson year_no="5" type="dep" spec="all">
+        <location>4526</location>
+        <course id="all_mva">
+          <name>Многомерный анализ данных</name>
           <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
         </course>
       </lesson>

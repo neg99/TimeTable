@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.27" productVersion="14.0.0" ?>
 <?mso-application progid="InfoPath.Document"?>
-<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" year="2014/2015" spec="sa" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" year="2015/2016" spec="sa" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="ball_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -38,7 +38,7 @@
 		<prof id="pv_shpilev"/>
 	</course>
 	<course semester="6" year="3" class="спец." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsa_prog_cpp_lang">
-		<name xml:lang="ru">Программирование на C++</name>
+		<name xml:lang="ru">Прикладное программирование</name>
 		<prof id="pv_shpilev"/>
 	</course>
 	<course semester="6" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bmm_simul_pract">
@@ -95,7 +95,11 @@
 		<name xml:lang="ru">Метод Монте-Карло и параллельные вычисления</name>
 		<prof id="sm_ermakov"/>
   </course>
-	<course semester="8" year="4" class="проф." extras="" hours="4" exam="зачет" year_equiv="1" alias="bsm_finance_insurance">
+	<course semester="7" year="4" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="ball_desicion">
+		<name xml:lang="ru">Принятие решений</name>
+		<prof id="ya_sushkov"/>
+</course>
+<course semester="8" year="4" class="проф." extras="" hours="4" exam="зачет" year_equiv="1" alias="bsm_finance_insurance">
 		<name xml:lang="ru">Актуарная математика</name>
 		<prof id="tm_tovstik"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_finance_insurance.pdf">
@@ -150,7 +154,7 @@
 		<prof id="ms_ermakov"/>
 	</course>
  <course semester="10" year="5" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_stoch_comp">
-		<name xml:lang="ru">Стохастические вычислительные методы</name>
+		<name xml:lang="ru">Метод Монте-Карло и параллельные вычисления</name>
 		<prof id="sm_ermakov"/>
 </course>
 <course semester="10" year="5" class="с/c" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_random_fields">
@@ -158,7 +162,44 @@
 		<prof id="tm_tovstik"/>
 	</course>
 <course semester="10" year="5" class="с/c" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_parallel_comp">
+		<name xml:lang="ru">Модели финансовой математики и статистическое моделирование</name>
+		<prof id="yn_kashtanov"/>
+</course>
+
+<course semester="11" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_stoch_comp2">
+		<name xml:lang="ru">Стохастические вычислительные методы</name>
+		<prof id="sm_ermakov"/>
+</course>
+<course semester="11" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_fin_prog">
 		<name xml:lang="ru">Параллельное программирование вероятностных задач</name>
 		<prof id="yn_kashtanov"/>
 </course>
+<course semester="11" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_histmath">
+		<name xml:lang="ru">История и методология прикладной математики</name>
+		<prof id="ya_sushkov"/>
+</course>
+<course semester="11" year="6" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_communication">
+		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях - I</name>
+		<prof id="ai_korobeynikov"/>
+</course>
+
+<course semester="11" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_optim">
+		<name xml:lang="ru">Аналитические методы решения многокритериальных задач</name>
+		<prof id="pv_shpilev"/>
+</course>
+
+<course semester="12" year="6" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_tropical">
+		<name xml:lang="ru"> Модели и методы тропической математики</name>
+		<prof id="nk_krivulin"/>
+</course>
+ 
+<course semester="12" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_communication">
+		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях - II</name>
+		<prof id="vb_melas"/>
+</course>
+<course semester="12" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_science_approach">
+		<name xml:lang="ru">Научно-обоснованный подход к моделированию реальных данных</name>
+		<prof id="ne_golyandina"/>
+</course>
+
 	</courses>

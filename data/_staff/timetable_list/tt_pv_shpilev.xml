@@ -14,10 +14,31 @@
   </weekday>
   <weekday id="tue">
     <two_hours no="1">
+      <lesson year_no="3" type="chair" spec="sa">
+        <location>2444-2</location>
+        <course id="bmm_prog_c_pract">
+          <name>Спец. выч. практикум</name>
+          <prof id="pv_shpilev">Шпилёв<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>П.В.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="2">
+      <lesson year_no="3" type="chair" spec="sa">
+        <location>2448</location>
+        <course id="bmm_prog_c_lang">
+          <name>Теория и практика программирования</name>
+          <prof id="pv_shpilev">Шпилёв<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>П.В.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="3">
+      <lesson year_no="6" type="chair" spec="sa">
+        <location>3524</location>
+        <course id="sa_optim">
+          <name>Аналитические методы решения многокритериальных задач</name>
+          <prof id="pv_shpilev">Шпилёв<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>П.В.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="4">
     </two_hours>
@@ -28,31 +49,10 @@
     <two_hours no="1">
     </two_hours>
     <two_hours no="2">
-      <lesson year_no="4" type="chair" spec="mm">
-        <location>2406</location>
-        <course id="mm_prog_cpp_advanced">
-          <name>Спец. выч. практикум</name>
-          <prof id="pv_shpilev">Шпилёв<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>П.В.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="3">
-      <lesson year_no="4" type="chair" spec="mm">
-        <location>2406</location>
-        <course id="mm_prog_cpp_pract">
-          <name>Практикум по совр. прикл. программированию</name>
-          <prof id="pv_shpilev">Шпилёв<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>П.В.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="4">
-      <lesson year_no="4" type="chair" spec="mm">
-        <location>3510</location>
-        <course id="mm_exper_design">
-          <name>Анализ регрессионных моделей</name>
-          <prof id="pv_shpilev">Шпилёв<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>П.В.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="5">
     </two_hours>
