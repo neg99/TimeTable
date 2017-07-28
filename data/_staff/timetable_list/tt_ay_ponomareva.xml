@@ -14,8 +14,22 @@
   </weekday>
   <weekday id="tue">
     <two_hours no="1">
+      <lesson year_no="4" type="chair" spec="mm">
+        <location>2522</location>
+        <course id="bmm_automaton_struct">
+          <name>Вероятностные автоматные модели</name>
+          <prof id="ay_ponomareva">Пономарева<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>A.Ю.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="2">
+      <lesson year_no="4" type="chair" spec="mm">
+        <location>2522</location>
+        <course id="bmm_petri_nets">
+          <name>Сети Петри</name>
+          <prof id="ay_ponomareva">Пономарева<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>A.Ю.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="3">
     </two_hours>
@@ -42,6 +56,13 @@
     <two_hours no="2">
     </two_hours>
     <two_hours no="3">
+      <lesson year_no="4" type="chair" spec="mm">
+        <location>2504</location>
+        <course id="bmm_petri_nets">
+          <name>Сети Петри</name>
+          <prof id="ay_ponomareva">Пономарева<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>A.Ю.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="4">
     </two_hours>

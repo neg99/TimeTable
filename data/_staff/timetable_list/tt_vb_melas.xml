@@ -16,24 +16,10 @@
     <two_hours no="1">
     </two_hours>
     <two_hours no="2">
-      <lesson year_no="5" type="dep" spec="all">
-        <location>3522</location>
-        <course id="all_adv_design">
-          <name>Дополнительные главы теории оптимального планирования эксперимента</name>
-          <prof id="vb_melas">Мелас<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>В.Б.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="3">
     </two_hours>
     <two_hours no="4">
-      <lesson year_no="4" type="dep" spec="all">
-        <location>3532</location>
-        <course id="ball_exper_design">
-          <name>Модельно-ориентированный анализ данных</name>
-          <prof id="vb_melas">Мелас<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>В.Б.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="5">
     </two_hours>

@@ -20,6 +20,13 @@
     <two_hours no="3">
     </two_hours>
     <two_hours no="4">
+      <lesson year_no="5" type="chair" spec="sa">
+        <location>3504</location>
+        <course id="sa_adv_stat">
+          <name>Дополнительные главы математической статистики</name>
+          <prof id="ms_ermakov">Ермаков<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>М.С.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="5">
     </two_hours>
@@ -52,13 +59,6 @@
     <two_hours no="1">
     </two_hours>
     <two_hours no="2">
-      <lesson year_no="4" type="dep" spec="all">
-        <location>07</location>
-        <course id="ball_stat" part="lect">
-          <name>Мат. модел. и обработка данных</name>
-          <prof id="ms_ermakov">Ермаков<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>М.С.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="3">
     </two_hours>

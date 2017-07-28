@@ -15,27 +15,48 @@
   <weekday id="tue">
     <two_hours no="1">
       <lesson year_no="3" type="chair" spec="sa">
-        <location>2444-2</location>
-        <course id="bmm_prog_c_pract">
-          <name>Спец. выч. практикум</name>
+        <location>2444-1</location>
+        <course id="bsa_prog_cpp_lang">
+          <name>Программирование на C++</name>
+          <prof id="pv_shpilev">Шпилёв<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>П.В.</prof>
+        </course>
+      </lesson>
+      <lesson year_no="3" type="chair" spec="mm">
+        <location>2444-1</location>
+        <course id="bsa_prog_cpp_lang">
+          <name>Программирование на С++</name>
           <prof id="pv_shpilev">Шпилёв<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>П.В.</prof>
         </course>
       </lesson>
     </two_hours>
     <two_hours no="2">
       <lesson year_no="3" type="chair" spec="sa">
-        <location>2448</location>
-        <course id="bmm_prog_c_lang">
-          <name>Теория и практика программирования</name>
+        <location>2444-1</location>
+        <course id="bmm_simul_pract">
+          <name>Выч. практикум</name>
+          <prof id="pv_shpilev">Шпилёв<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>П.В.</prof>
+        </course>
+      </lesson>
+      <lesson year_no="3" type="chair" spec="mm">
+        <location>2444-1</location>
+        <course id="bmm_simul_pract">
+          <name>Выч. практикум</name>
           <prof id="pv_shpilev">Шпилёв<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>П.В.</prof>
         </course>
       </lesson>
     </two_hours>
     <two_hours no="3">
-      <lesson year_no="6" type="chair" spec="sa">
-        <location>3524</location>
-        <course id="sa_optim">
-          <name>Аналитические методы решения многокритериальных задач</name>
+      <lesson year_no="3" type="chair" spec="sa">
+        <location>2444-1</location>
+        <course id="bmm_prog_cpp_pract">
+          <name>Спец. выч. практикум</name>
+          <prof id="pv_shpilev">Шпилёв<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>П.В.</prof>
+        </course>
+      </lesson>
+      <lesson year_no="3" type="chair" spec="mm">
+        <location>2444-1</location>
+        <course id="bmm_prog_cpp_pract">
+          <name>Спец. выч. практикум</name>
           <prof id="pv_shpilev">Шпилёв<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>П.В.</prof>
         </course>
       </lesson>

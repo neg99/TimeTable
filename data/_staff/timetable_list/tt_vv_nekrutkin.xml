@@ -18,8 +18,22 @@
     <two_hours no="2">
     </two_hours>
     <two_hours no="3">
+      <lesson year_no="5" type="chair" spec="sm">
+        <location>2524</location>
+        <course id="sm_stat_stoch_processes">
+          <name>Статистика стационарных процессов</name>
+          <prof id="vv_nekrutkin">Некруткин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>В.В.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="4">
+      <lesson year_no="3" type="dep" spec="all">
+        <location>2510</location>
+        <course id="ball_teorver_pract">
+          <name>Теория вероятностей</name>
+          <prof id="vv_nekrutkin">Некруткин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>В.В.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="5">
     </two_hours>
@@ -28,57 +42,43 @@
     <two_hours no="1">
     </two_hours>
     <two_hours no="2">
-      <lesson year_no="4" type="chair" spec="sm">
-        <location>2526</location>
-        <course id="bsm_statmod">
-          <name>Статистическое моделирование-1</name>
-          <prof id="vv_nekrutkin">Некруткин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>В.В.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="3">
-      <lesson year_no="3" type="dep" spec="all">
-        <location>3506</location>
-        <course id="ball_simul_discr">
-          <name>Дискретное моделирование</name>
-          <prof id="vv_nekrutkin">Некруткин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>В.В.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="4">
-      <lesson year_no="4" type="chair" spec="sm">
-        <location>2516</location>
-        <course id="bsm_statmod">
-          <name>Статистическое моделирование-1</name>
-          <prof id="vv_nekrutkin">Некруткин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>В.В.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="5">
     </two_hours>
   </weekday>
   <weekday id="thu">
     <two_hours no="1">
-      <lesson year_no="3" type="dep" spec="all">
-        <location>2528</location>
-        <course id="ball_teorver_pract">
-          <name>Теория вероятностей</name>
-          <prof id="vv_nekrutkin">Некруткин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>В.В.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="2">
-      <lesson year_no="6" type="chair" spec="sm">
-        <location>2511</location>
-        <course id="sm_markov_chains">
-          <name>Цепи Маркова и их приложения</name>
+      <lesson year_no="3" type="dep" spec="all">
+        <location>4399</location>
+        <course id="ball_simul">
+          <name>Моделирование распределений</name>
           <prof id="vv_nekrutkin">Некруткин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>В.В.</prof>
         </course>
       </lesson>
     </two_hours>
     <two_hours no="3">
+      <lesson year_no="4" type="chair" spec="sm">
+        <location>2502</location>
+        <course id="bsm_proc_app">
+          <name>Приложения случайных процессов</name>
+          <prof id="vv_nekrutkin">Некруткин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>В.В.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="4">
+      <lesson year_no="4" type="chair" spec="sm">
+        <location>4399</location>
+        <course id="bsm_prediploma">
+          <name>Подготовка и оформление научных исследований</name>
+          <prof id="vv_nekrutkin">Некруткин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>В.В.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="5">
     </two_hours>
@@ -87,8 +87,22 @@
     <two_hours no="1">
     </two_hours>
     <two_hours no="2">
+      <lesson year_no="4" type="chair" spec="sm">
+        <location>3510</location>
+        <course id="bsm_stoch_processes">
+          <name>Основы теории случайных процессов</name>
+          <prof id="vv_nekrutkin">Некруткин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>В.В.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="3">
+      <lesson year_no="4" type="chair" spec="sm">
+        <location>3510</location>
+        <course id="bsm_stoch_processes">
+          <name>Основы теории случайных процессов</name>
+          <prof id="vv_nekrutkin">Некруткин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>В.В.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="4">
     </two_hours>

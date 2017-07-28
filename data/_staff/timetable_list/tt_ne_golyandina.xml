@@ -14,30 +14,30 @@
   </weekday>
   <weekday id="tue">
     <two_hours no="1">
+      <lesson year_no="3" type="chair" spec="sm">
+        <location>2412</location>
+        <course id="bsm_prog_cpp_lang">
+          <name>Объектно-ориентированное программирование</name>
+          <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="2">
       <lesson year_no="3" type="chair" spec="sm">
-        <location>2408</location>
-        <course id="bsm_prog_c_pract">
-          <name>Спец.выч. практикум</name>
+        <location>2508</location>
+        <course id="bsm_prog_cpp_pract">
+          <name>Спец. выч. практикум</name>
           <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
         </course>
       </lesson>
     </two_hours>
     <two_hours no="3">
-      <lesson year_no="5" type="chair" spec="sm">
-        <location>4399</location>
-        <course id="sm_mva_comp">
-          <name>Анализ многомерных данных на компьютере</name>
-          <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="4">
-      <lesson year_no="6" type="chair" spec="sm">
-        <location>4399</location>
-        <course id="sm_communication">
-          <name>Научная и компьютерная коммуникация в современных условиях - I</name>
+      <lesson year_no="5" type="chair" spec="sm">
+        <location>3502</location>
+        <course id="sm_timeseries_ssa">
+          <name>Главные компоненты временных рядов</name>
           <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
         </course>
       </lesson>
@@ -60,32 +60,32 @@
   <weekday id="thu">
     <two_hours no="1">
       <lesson year_no="4" type="chair" spec="sm">
-        <location>4526</location>
-        <course id="bsm_appl_stat">
-          <name>Задачи статистического анализа данных</name>
+        <location>3532</location>
+        <course id="bsm_stat_pract">
+          <name>Анализ данных на компьютере</name>
           <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
         </course>
       </lesson>
     </two_hours>
     <two_hours no="2">
-      <lesson year_no="3" type="chair" spec="sm">
-        <location>1509</location>
-        <course id="bsm_prog_c_lang">
-          <name>Техника программирования</name>
+      <lesson year_no="4" type="chair" spec="sm">
+        <location>3532</location>
+        <course id="bsm_stat_pract">
+          <name>Анализ данных на компьютере</name>
           <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
         </course>
       </lesson>
     </two_hours>
     <two_hours no="3">
-    </two_hours>
-    <two_hours no="4">
-      <lesson year_no="5" type="dep" spec="all">
-        <location>4526</location>
-        <course id="all_mva">
-          <name>Многомерный анализ данных</name>
+      <lesson year_no="5" type="chair" spec="sm">
+        <location>4399</location>
+        <course id="sm_ts_comp">
+          <name>Статистический анализ временных рядов</name>
           <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
         </course>
       </lesson>
+    </two_hours>
+    <two_hours no="4">
     </two_hours>
     <two_hours no="5">
     </two_hours>

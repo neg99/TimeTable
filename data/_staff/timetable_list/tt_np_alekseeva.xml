@@ -14,24 +14,10 @@
   </weekday>
   <weekday id="tue">
     <two_hours no="1">
-      <lesson year_no="4" type="chair" spec="sa">
-        <location>3532</location>
-        <course id="bmm_appl_stat">
-          <name>Стохастический анализ данных</name>
-          <prof id="np_alekseeva">Алексеева<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.П.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="2">
     </two_hours>
     <two_hours no="3">
-      <lesson year_no="5" type="chair" spec="sa">
-        <location>3522</location>
-        <course id="sa_real_stat">
-          <name>Применение статистических методов к реальным данным</name>
-          <prof id="np_alekseeva">Алексеева<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.П.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="4">
     </two_hours>
@@ -44,8 +30,36 @@
     <two_hours no="2">
     </two_hours>
     <two_hours no="3">
+      <lesson year_no="4" type="chair" spec="sa">
+        <location>1520</location>
+        <course id="bmm_stat_pract">
+          <name>Анализ данных на компьютере</name>
+          <prof id="np_alekseeva">Алексеева<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.П.</prof>
+        </course>
+      </lesson>
+      <lesson year_no="4" type="chair" spec="mm">
+        <location>1520</location>
+        <course id="bmm_stat_pract">
+          <name>Анализ данных на компьютере</name>
+          <prof id="np_alekseeva">Алексеева<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.П.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="4">
+      <lesson year_no="4" type="chair" spec="sa">
+        <location>1520</location>
+        <course id="bmm_stat_pract">
+          <name>Анализ данных на компьютере</name>
+          <prof id="np_alekseeva">Алексеева<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.П.</prof>
+        </course>
+      </lesson>
+      <lesson year_no="4" type="chair" spec="mm">
+        <location>1520</location>
+        <course id="bmm_stat_pract">
+          <name>Анализ данных на компьютере</name>
+          <prof id="np_alekseeva">Алексеева<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.П.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="5">
     </two_hours>
