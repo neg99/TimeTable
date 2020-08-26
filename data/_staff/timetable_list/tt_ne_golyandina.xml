@@ -14,30 +14,30 @@
   </weekday>
   <weekday id="tue">
     <two_hours no="1">
+    </two_hours>
+    <two_hours no="2">
       <lesson year_no="3" type="chair" spec="sm">
-        <location>2412</location>
+        <location>2507</location>
         <course id="bsm_prog_cpp_lang">
           <name>Объектно-ориентированное программирование</name>
           <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
         </course>
       </lesson>
     </two_hours>
-    <two_hours no="2">
+    <two_hours no="3">
       <lesson year_no="3" type="chair" spec="sm">
-        <location>2508</location>
+        <location>2412</location>
         <course id="bsm_prog_cpp_pract">
           <name>Спец. выч. практикум</name>
           <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
         </course>
       </lesson>
     </two_hours>
-    <two_hours no="3">
-    </two_hours>
     <two_hours no="4">
-      <lesson year_no="5" type="chair" spec="sm">
-        <location>3502</location>
-        <course id="sm_timeseries_ssa">
-          <name>Главные компоненты временных рядов</name>
+      <lesson year_no="6" type="dep" spec="all">
+        <location>4399</location>
+        <course id="sm_science_approach">
+          <name>Научно-обоснованный подход к моделированию реальных данных</name>
           <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
         </course>
       </lesson>
@@ -60,7 +60,7 @@
   <weekday id="thu">
     <two_hours no="1">
       <lesson year_no="4" type="chair" spec="sm">
-        <location>3532</location>
+        <location>3522</location>
         <course id="bsm_stat_pract">
           <name>Анализ данных на компьютере</name>
           <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
@@ -69,7 +69,7 @@
     </two_hours>
     <two_hours no="2">
       <lesson year_no="4" type="chair" spec="sm">
-        <location>3532</location>
+        <location>3522</location>
         <course id="bsm_stat_pract">
           <name>Анализ данных на компьютере</name>
           <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
@@ -77,13 +77,6 @@
       </lesson>
     </two_hours>
     <two_hours no="3">
-      <lesson year_no="5" type="chair" spec="sm">
-        <location>4399</location>
-        <course id="sm_ts_comp">
-          <name>Статистический анализ временных рядов</name>
-          <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="4">
     </two_hours>
@@ -96,8 +89,22 @@
     <two_hours no="2">
     </two_hours>
     <two_hours no="3">
+      <lesson year_no="5" type="chair" spec="sm">
+        <location>4399 (Электив 3)</location>
+        <course id="sm_timeseries_ssa">
+          <name>Главные компоненты временных рядов</name>
+          <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="4">
+      <lesson year_no="5" type="chair" spec="sm">
+        <location>4399 (Электив 4)</location>
+        <course id="sm_ts_comp">
+          <name>Статистический анализ временных рядов</name>
+          <prof id="ne_golyandina">Голяндина<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.Э.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="5">
     </two_hours>

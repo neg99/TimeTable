@@ -14,19 +14,19 @@
   </weekday>
   <weekday id="tue">
     <two_hours no="1">
-      <lesson year_no="4" type="chair" spec="sa">
-        <location>2524</location>
-        <course id="bsa_simul_stoch_proc">
-          <name>Моделирование случайных процессов</name>
+      <lesson year_no="5" type="chair" spec="sa">
+        <location>3506 (Электив 1)</location>
+        <course id="sa_random_fields">
+          <name>  Случайные поля и динамические методы Монте-Карло</name>
           <prof id="tm_tovstik">Товстик<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Т.М.</prof>
         </course>
       </lesson>
     </two_hours>
     <two_hours no="2">
-      <lesson year_no="5" type="chair" spec="sa">
-        <location>2526</location>
-        <course id="sa_random_fields">
-          <name>  Случайные поля и динамические методы Монте-Карло</name>
+      <lesson year_no="4" type="chair" spec="sa">
+        <location>3524</location>
+        <course id="bsa_simul_stoch_proc">
+          <name>Моделирование случайных процессов</name>
           <prof id="tm_tovstik">Товстик<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Т.М.</prof>
         </course>
       </lesson>
@@ -40,15 +40,8 @@
   </weekday>
   <weekday id="wed">
     <two_hours no="1">
-      <lesson year_no="4" type="chair" spec="sa">
-        <location>2511</location>
-        <course id="bsm_finance_insurance">
-          <name>Актуарная математика</name>
-          <prof id="tm_tovstik">Товстик<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Т.М.</prof>
-        </course>
-      </lesson>
-      <lesson year_no="4" type="chair" spec="sm">
-        <location>2511</location>
+      <lesson year_no="4" type="dep" spec="all">
+        <location>3502</location>
         <course id="bsm_finance_insurance">
           <name>Актуарная математика</name>
           <prof id="tm_tovstik">Товстик<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Т.М.</prof>
@@ -56,15 +49,8 @@
       </lesson>
     </two_hours>
     <two_hours no="2">
-      <lesson year_no="4" type="chair" spec="sa">
-        <location>2511</location>
-        <course id="bsm_finance_insurance">
-          <name>Актуарная математика</name>
-          <prof id="tm_tovstik">Товстик<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Т.М.</prof>
-        </course>
-      </lesson>
-      <lesson year_no="4" type="chair" spec="sm">
-        <location>2511</location>
+      <lesson year_no="4" type="dep" spec="all">
+        <location>3502</location>
         <course id="bsm_finance_insurance">
           <name>Актуарная математика</name>
           <prof id="tm_tovstik">Товстик<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Т.М.</prof>

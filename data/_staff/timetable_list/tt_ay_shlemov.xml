@@ -18,13 +18,6 @@
     <two_hours no="2">
     </two_hours>
     <two_hours no="3">
-      <lesson year_no="3" type="chair" spec="sm">
-        <location>2408</location>
-        <course id="bsm_simul_pract">
-          <name>Выч. практикум</name>
-          <prof id="ay_shlemov">Шлемов<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>А.Ю.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="4">
     </two_hours>

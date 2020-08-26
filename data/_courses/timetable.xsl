@@ -8,8 +8,8 @@
 	<xsl:include href="gen_lesson_table.xsl"/>
 	<xsl:include href="resolve_prof.xsl"/>
 	<xsl:variable name="no_width" select="10"/>
-	<xsl:variable name="spec_width" select="164"/>
-	<xsl:variable name="cell_height" select="36"/>
+	<xsl:variable name="spec_width" select="240"/>
+	<xsl:variable name="cell_height" select="40"/>
 
 	<xsl:variable name="specs">
 		<specs>
@@ -48,12 +48,12 @@
 </xsl:otherwise>
 </xsl:choose>
 </h2>
-<p>Вариант расписания от 15.02.2017. Обновляйте страницу (!), чтобы увидеть последний вариант. Сообщайте об ошибках, пожалуйста. 
+<p>Попытка сделать расписание, по которому учиться в первые недели (07.02.2020). Обновляйте страницу (!), чтобы увидеть последний вариант. Сообщайте об ошибках, пожалуйста. Возможно, аудиториям верить нельзя.
 </p>
 <p/>
-<p>Карманное расписание<sup><font color="red">NEW</font></sup> для специализаций: 
+<!-- <p>Карманное расписание<sup><font color="red">NEW</font></sup> для специализаций: 
 <xsl:for-each select="msxsl:node-set($specs)/specs/spec"><spec code="nbsp"/><a target="_blank" href="{$current_folder}pocket/{@id}.htm"><xsl:value-of select="name"/></a></xsl:for-each></p>
-
+-->
 
 		<table class="timetable" width="{$no_width + count(msxsl:node-set($specs)/specs/spec)*$spec_width}" align="center" border="1">
 			<tr>

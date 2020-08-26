@@ -14,10 +14,31 @@
   </weekday>
   <weekday id="tue">
     <two_hours no="1">
+      <lesson year_no="4" type="chair" spec="sa">
+        <location>2446</location>
+        <course id="bsa_prediploma">
+          <name>Подготовка и оформление научных исследований</name>
+          <prof id="nk_krivulin">Кривулин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.К.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="2">
+      <lesson year_no="4" type="chair" spec="sm">
+        <location>2406</location>
+        <course id="bsm_idemp_algebra">
+          <name>Алг. методы моделирования систем</name>
+          <prof id="nk_krivulin">Кривулин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.К.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="3">
+      <lesson year_no="6" type="chair" spec="sa">
+        <location>3315</location>
+        <course id="sa_tropical">
+          <name> Модели и методы тропической математики</name>
+          <prof id="nk_krivulin">Кривулин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.К.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="4">
     </two_hours>
@@ -38,37 +59,14 @@
   </weekday>
   <weekday id="thu">
     <two_hours no="1">
-      <lesson year_no="4" type="chair" spec="mm">
-        <location>3526</location>
-        <fortnightly type="2">
-        </fortnightly>
-        <course id="bmm_idemp_algebra">
-          <name>Алгебраические методы моделирования систем</name>
-          <prof id="nk_krivulin">Кривулин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.К.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="2">
     </two_hours>
     <two_hours no="3">
     </two_hours>
     <two_hours no="4">
-      <lesson year_no="4" type="chair" spec="mm">
-        <location>2448</location>
-        <course id="bmm_idemp_algebra">
-          <name>Алгебраические методы моделирования систем</name>
-          <prof id="nk_krivulin">Кривулин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.К.</prof>
-        </course>
-      </lesson>
     </two_hours>
     <two_hours no="5">
-      <lesson year_no="4" type="chair" spec="mm">
-        <location>2446, до 18:00</location>
-        <course id="bmm_idemp_algebra">
-          <name>Алгебраические методы моделирования систем</name>
-          <prof id="nk_krivulin">Кривулин<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.К.</prof>
-        </course>
-      </lesson>
     </two_hours>
   </weekday>
   <weekday id="fri">

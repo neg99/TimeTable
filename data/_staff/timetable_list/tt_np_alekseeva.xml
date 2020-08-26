@@ -31,14 +31,7 @@
     </two_hours>
     <two_hours no="3">
       <lesson year_no="4" type="chair" spec="sa">
-        <location>1520</location>
-        <course id="bmm_stat_pract">
-          <name>Анализ данных на компьютере</name>
-          <prof id="np_alekseeva">Алексеева<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.П.</prof>
-        </course>
-      </lesson>
-      <lesson year_no="4" type="chair" spec="mm">
-        <location>1520</location>
+        <location>3502</location>
         <course id="bmm_stat_pract">
           <name>Анализ данных на компьютере</name>
           <prof id="np_alekseeva">Алексеева<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.П.</prof>
@@ -47,14 +40,7 @@
     </two_hours>
     <two_hours no="4">
       <lesson year_no="4" type="chair" spec="sa">
-        <location>1520</location>
-        <course id="bmm_stat_pract">
-          <name>Анализ данных на компьютере</name>
-          <prof id="np_alekseeva">Алексеева<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.П.</prof>
-        </course>
-      </lesson>
-      <lesson year_no="4" type="chair" spec="mm">
-        <location>1520</location>
+        <location>3502</location>
         <course id="bmm_stat_pract">
           <name>Анализ данных на компьютере</name>
           <prof id="np_alekseeva">Алексеева<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.П.</prof>
@@ -70,8 +56,26 @@
     <two_hours no="2">
     </two_hours>
     <two_hours no="3">
+      <lesson year_no="6" type="chair" spec="sm">
+        <location>1520</location>
+        <fortnightly type="1">
+        </fortnightly>
+        <course id="sm_biostat">
+          <name>Биостатистика</name>
+          <prof id="np_alekseeva">Алексеева<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.П.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="4">
+      <lesson year_no="6" type="chair" spec="sm">
+        <location>1520</location>
+        <fortnightly type="1">
+        </fortnightly>
+        <course id="sm_biostat">
+          <name>Биостатистика</name>
+          <prof id="np_alekseeva">Алексеева<spec code="nbsp" xmlns:pr="http://statmod.ru/staff"></spec>Н.П.</prof>
+        </course>
+      </lesson>
     </two_hours>
     <two_hours no="5">
     </two_hours>

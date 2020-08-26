@@ -1,79 +1,152 @@
 ---------------------------------------------------------------------
-Operating System = Microsoft Windows NT 6.1.7601 Service Pack 1
-Computer Name    = НИНА-НОУТБУК
-Domain           = Нина-ноутбук
-User Name        = Нина
+Operating System = Microsoft Windows NT 6.2.9200.0
+Computer Name    = NEG
+Domain           = NEG
+User Name        = nina
 ---------------------------------------------------------------------
-.\ - started on  10 февраля 2012 г. at 16:12:54
+.\ - started on  10 августа 2016 г. at 19:58:11
 s:\_staff\timetable_list - start
 s:\_staff\timetable_list - single build
 s:\_staff\timetable_list\build.xml - start
-s:\_staff\timetable_list\build.xml - updated
+s:\_staff\timetable_list\build.xml - no changes
 s:\_staff\timetable_list - single build end 
 s:\_staff\timetable_list\tt_sm_ermakov.xml - start
-s:\_staff\timetable_list\tt_sm_ermakov.xml - updated
-s:\_staff\timetable_list\tt_ap_sizova.xml - start
-s:\_staff\timetable_list\tt_ap_sizova.xml - updated
+s:\_staff\timetable_list\tt_sm_ermakov.xml - no changes
 s:\_staff\timetable_list\tt_ya_sushkov.xml - start
-s:\_staff\timetable_list\tt_ya_sushkov.xml - updated
-s:\_staff\timetable_list\tt_mk_chirkov.xml - start
-s:\_staff\timetable_list\tt_mk_chirkov.xml - updated
+s:\_staff\timetable_list\tt_ya_sushkov.xml - no changes
 s:\_staff\timetable_list\tt_vb_melas.xml - start
 s:\_staff\timetable_list\tt_vb_melas.xml - updated
-s:\_staff\timetable_list\tt_ms_ermakov.xml - start
-s:\_staff\timetable_list\tt_ms_ermakov.xml - updated
-s:\_staff\timetable_list\tt_vv_nekrutkin.xml - start
-s:\_staff\timetable_list\tt_vv_nekrutkin.xml - updated
-s:\_staff\timetable_list\tt_ne_golyandina.xml - start
-s:\_staff\timetable_list\tt_ne_golyandina.xml - updated
-s:\_staff\timetable_list\tt_ag_bart.xml - start
-s:\_staff\timetable_list\tt_ag_bart.xml - updated
-s:\_staff\timetable_list\tt_tm_tovstik.xml - start
-s:\_staff\timetable_list\tt_tm_tovstik.xml - updated
-s:\_staff\timetable_list\tt_yn_kashtanov.xml - start
-s:\_staff\timetable_list\tt_yn_kashtanov.xml - updated
 s:\_staff\timetable_list\tt_nk_krivulin.xml - start
-s:\_staff\timetable_list\tt_nk_krivulin.xml - updated
-s:\_staff\timetable_list\tt_vb_christinich.xml - start
-s:\_staff\timetable_list\tt_vb_christinich.xml - updated
+s:\_staff\timetable_list\tt_nk_krivulin.xml - no changes
+s:\_staff\timetable_list\tt_ms_ermakov.xml - start
+s:\_staff\timetable_list\tt_ms_ermakov.xml - no changes
+s:\_staff\timetable_list\tt_vv_nekrutkin.xml - start
+s:\_staff\timetable_list\tt_vv_nekrutkin.xml - no changes
+s:\_staff\timetable_list\tt_ne_golyandina.xml - start
+s:\_staff\timetable_list\tt_ne_golyandina.xml - no changes
+s:\_staff\timetable_list\tt_tm_tovstik.xml - start
+s:\_staff\timetable_list\tt_tm_tovstik.xml - no changes
+s:\_staff\timetable_list\tt_yn_kashtanov.xml - start
+s:\_staff\timetable_list\tt_yn_kashtanov.xml - no changes
 s:\_staff\timetable_list\tt_np_alekseeva.xml - start
-s:\_staff\timetable_list\tt_np_alekseeva.xml - updated
+s:\_staff\timetable_list\tt_np_alekseeva.xml - no changes
 s:\_staff\timetable_list\tt_eg_burnaeva.xml - start
-s:\_staff\timetable_list\tt_eg_burnaeva.xml - updated
-s:\_staff\timetable_list\tt_an_pepelyshev.xml - start
-s:\_staff\timetable_list\tt_an_pepelyshev.xml - updated
-s:\_staff\timetable_list\tt_vn_solntsev.xml - start
-s:\_staff\timetable_list\tt_vn_solntsev.xml - updated
-s:\_staff\timetable_list\tt_ay_ponomareva.xml - start
-s:\_staff\timetable_list\tt_ay_ponomareva.xml - updated
+s:\_staff\timetable_list\tt_eg_burnaeva.xml - no changes
 s:\_staff\timetable_list\tt_ai_korobeynikov.xml - start
-s:\_staff\timetable_list\tt_ai_korobeynikov.xml - updated
-s:\_staff\timetable_list\tt_kd_usevich.xml - start
-s:\_staff\timetable_list\tt_kd_usevich.xml - updated
-s:\_staff\timetable_list\tt_is_scherbakova.xml - start
-s:\_staff\timetable_list\tt_is_scherbakova.xml - updated
+s:\_staff\timetable_list\tt_ai_korobeynikov.xml - no changes
+s:\_staff\timetable_list\tt_an_pepelyshev.xml - start
+s:\_staff\timetable_list\tt_an_pepelyshev.xml - no changes
+s:\_staff\timetable_list\tt_vb_christinich.xml - start
+s:\_staff\timetable_list\tt_vb_christinich.xml - no changes
+s:\_staff\timetable_list\tt_vn_solntsev.xml - start
+s:\_staff\timetable_list\tt_vn_solntsev.xml - no changes
+s:\_staff\timetable_list\tt_ay_ponomareva.xml - start
+s:\_staff\timetable_list\tt_ay_ponomareva.xml - no changes
+s:\_staff\timetable_list\tt_ag_bart.xml - start
+s:\_staff\timetable_list\tt_ag_bart.xml - no changes
+s:\_staff\timetable_list\tt_mk_chirkov.xml - start
+s:\_staff\timetable_list\tt_mk_chirkov.xml - no changes
 s:\_staff\timetable_list\tt_pv_shpilev.xml - start
-s:\_staff\timetable_list\tt_pv_shpilev.xml - updated
-s:\_staff\timetable_list\tt_pv_gracheva.xml - start
-s:\_staff\timetable_list\tt_pv_gracheva.xml - updated
+s:\_staff\timetable_list\tt_pv_shpilev.xml - no changes
+s:\_staff\timetable_list\tt_nk_zvonarev.xml - start
+s:\_staff\timetable_list\tt_nk_zvonarev.xml - no changes
 s:\_staff\timetable_list\tt_ay_shlemov.xml - start
-s:\_staff\timetable_list\tt_ay_shlemov.xml - updated
-s:\_staff\timetable_list\tt_en_mosyagina.xml - start
-s:\_staff\timetable_list\tt_en_mosyagina.xml - updated
+s:\_staff\timetable_list\tt_ay_shlemov.xml - no changes
 s:\_staff\timetable_list\tt_nm_moskaleva.xml - start
-s:\_staff\timetable_list\tt_nm_moskaleva.xml - updated
+s:\_staff\timetable_list\tt_nm_moskaleva.xml - no changes
+s:\_staff\timetable_list\tt_kd_usevich.xml - start
+s:\_staff\timetable_list\tt_kd_usevich.xml - no changes
+s:\_staff\timetable_list\tt_is_scherbakova.xml - start
+s:\_staff\timetable_list\tt_is_scherbakova.xml - no changes
+s:\_staff\timetable_list\tt_pv_gracheva.xml - start
+s:\_staff\timetable_list\tt_pv_gracheva.xml - no changes
+s:\_staff\timetable_list\tt_en_mosyagina.xml - start
+s:\_staff\timetable_list\tt_en_mosyagina.xml - no changes
+s:\_staff\timetable_list\tt_ap_sizova.xml - start
+s:\_staff\timetable_list\tt_ap_sizova.xml - no changes
 s:\_staff\timetable_list\list.htm - start
 s:\_staff\timetable_list\list.htm - updated
-.\ - finished on  10 февраля 2012 г. at 16:12:55
+.\ - finished on  10 августа 2016 г. at 19:58:16
 ---------------------------------------------------------------------
-Total build time: 00:00:01.1140637
+Total build time: 00:00:05.4738928
 ---------------------------------------------------------------------
-Operating System = Microsoft Windows NT 6.1.7601 Service Pack 1
-Computer Name    = НИНА-НОУТБУК
-Domain           = Нина-ноутбук
-User Name        = Нина
+Operating System = Microsoft Windows NT 6.2.9200.0
+Computer Name    = NEG
+Domain           = NEG
+User Name        = nina
 ---------------------------------------------------------------------
-.\ - started on  3 сентября 2012 г. at 19:34:31
+.\ - started on  31 августа 2016 г. at 21:14:31
+S:\_staff\timetable_list - start
+S:\_staff\timetable_list - single build
+S:\_staff\timetable_list\build.xml - start
+S:\_staff\timetable_list\build.xml - no changes
+S:\_staff\timetable_list - single build end 
+S:\_staff\timetable_list\tt_sm_ermakov.xml - start
+S:\_staff\timetable_list\tt_sm_ermakov.xml - no changes
+S:\_staff\timetable_list\tt_ya_sushkov.xml - start
+S:\_staff\timetable_list\tt_ya_sushkov.xml - no changes
+S:\_staff\timetable_list\tt_vb_melas.xml - start
+S:\_staff\timetable_list\tt_vb_melas.xml - no changes
+S:\_staff\timetable_list\tt_nk_krivulin.xml - start
+S:\_staff\timetable_list\tt_nk_krivulin.xml - no changes
+S:\_staff\timetable_list\tt_ms_ermakov.xml - start
+S:\_staff\timetable_list\tt_ms_ermakov.xml - no changes
+S:\_staff\timetable_list\tt_vv_nekrutkin.xml - start
+S:\_staff\timetable_list\tt_vv_nekrutkin.xml - no changes
+S:\_staff\timetable_list\tt_ne_golyandina.xml - start
+S:\_staff\timetable_list\tt_ne_golyandina.xml - no changes
+S:\_staff\timetable_list\tt_tm_tovstik.xml - start
+S:\_staff\timetable_list\tt_tm_tovstik.xml - no changes
+S:\_staff\timetable_list\tt_yn_kashtanov.xml - start
+S:\_staff\timetable_list\tt_yn_kashtanov.xml - no changes
+S:\_staff\timetable_list\tt_np_alekseeva.xml - start
+S:\_staff\timetable_list\tt_np_alekseeva.xml - no changes
+S:\_staff\timetable_list\tt_eg_burnaeva.xml - start
+S:\_staff\timetable_list\tt_eg_burnaeva.xml - no changes
+S:\_staff\timetable_list\tt_ai_korobeynikov.xml - start
+S:\_staff\timetable_list\tt_ai_korobeynikov.xml - no changes
+S:\_staff\timetable_list\tt_an_pepelyshev.xml - start
+S:\_staff\timetable_list\tt_an_pepelyshev.xml - no changes
+S:\_staff\timetable_list\tt_vb_christinich.xml - start
+S:\_staff\timetable_list\tt_vb_christinich.xml - no changes
+S:\_staff\timetable_list\tt_vn_solntsev.xml - start
+S:\_staff\timetable_list\tt_vn_solntsev.xml - no changes
+S:\_staff\timetable_list\tt_ay_ponomareva.xml - start
+S:\_staff\timetable_list\tt_ay_ponomareva.xml - no changes
+S:\_staff\timetable_list\tt_ag_bart.xml - start
+S:\_staff\timetable_list\tt_ag_bart.xml - no changes
+S:\_staff\timetable_list\tt_mk_chirkov.xml - start
+S:\_staff\timetable_list\tt_mk_chirkov.xml - no changes
+S:\_staff\timetable_list\tt_pv_shpilev.xml - start
+S:\_staff\timetable_list\tt_pv_shpilev.xml - no changes
+S:\_staff\timetable_list\tt_nk_zvonarev.xml - start
+S:\_staff\timetable_list\tt_nk_zvonarev.xml - no changes
+S:\_staff\timetable_list\tt_ay_shlemov.xml - start
+S:\_staff\timetable_list\tt_ay_shlemov.xml - no changes
+S:\_staff\timetable_list\tt_nm_moskaleva.xml - start
+S:\_staff\timetable_list\tt_nm_moskaleva.xml - no changes
+S:\_staff\timetable_list\tt_kd_usevich.xml - start
+S:\_staff\timetable_list\tt_kd_usevich.xml - no changes
+S:\_staff\timetable_list\tt_is_scherbakova.xml - start
+S:\_staff\timetable_list\tt_is_scherbakova.xml - no changes
+S:\_staff\timetable_list\tt_pv_gracheva.xml - start
+S:\_staff\timetable_list\tt_pv_gracheva.xml - no changes
+S:\_staff\timetable_list\tt_en_mosyagina.xml - start
+S:\_staff\timetable_list\tt_en_mosyagina.xml - no changes
+S:\_staff\timetable_list\tt_ap_sizova.xml - start
+S:\_staff\timetable_list\tt_ap_sizova.xml - no changes
+S:\_staff\timetable_list\list.htm - start
+S:\_staff\timetable_list\list.htm - no changes
+.\ - finished on  31 августа 2016 г. at 21:14:33
+---------------------------------------------------------------------
+Total build time: 00:00:01.6221667
+---------------------------------------------------------------------
+Operating System = Microsoft Windows NT 6.2.9200.0
+Computer Name    = NEG
+Domain           = NEG
+User Name        = nina
+---------------------------------------------------------------------
+.\ - started on  15 февраля 2017 г. at 19:42:17
 s:\_staff\timetable_list - start
 s:\_staff\timetable_list - single build
 s:\_staff\timetable_list\build.xml - start
@@ -81,58 +154,344 @@ s:\_staff\timetable_list\build.xml - no changes
 s:\_staff\timetable_list - single build end 
 s:\_staff\timetable_list\tt_sm_ermakov.xml - start
 s:\_staff\timetable_list\tt_sm_ermakov.xml - updated
-s:\_staff\timetable_list\tt_ap_sizova.xml - start
-s:\_staff\timetable_list\tt_ap_sizova.xml - no changes
 s:\_staff\timetable_list\tt_ya_sushkov.xml - start
 s:\_staff\timetable_list\tt_ya_sushkov.xml - updated
-s:\_staff\timetable_list\tt_mk_chirkov.xml - start
-s:\_staff\timetable_list\tt_mk_chirkov.xml - updated
 s:\_staff\timetable_list\tt_vb_melas.xml - start
 s:\_staff\timetable_list\tt_vb_melas.xml - updated
+s:\_staff\timetable_list\tt_nk_krivulin.xml - start
+s:\_staff\timetable_list\tt_nk_krivulin.xml - updated
 s:\_staff\timetable_list\tt_ms_ermakov.xml - start
 s:\_staff\timetable_list\tt_ms_ermakov.xml - updated
 s:\_staff\timetable_list\tt_vv_nekrutkin.xml - start
 s:\_staff\timetable_list\tt_vv_nekrutkin.xml - updated
 s:\_staff\timetable_list\tt_ne_golyandina.xml - start
 s:\_staff\timetable_list\tt_ne_golyandina.xml - updated
-s:\_staff\timetable_list\tt_ag_bart.xml - start
-s:\_staff\timetable_list\tt_ag_bart.xml - no changes
 s:\_staff\timetable_list\tt_tm_tovstik.xml - start
 s:\_staff\timetable_list\tt_tm_tovstik.xml - updated
 s:\_staff\timetable_list\tt_yn_kashtanov.xml - start
 s:\_staff\timetable_list\tt_yn_kashtanov.xml - updated
-s:\_staff\timetable_list\tt_nk_krivulin.xml - start
-s:\_staff\timetable_list\tt_nk_krivulin.xml - updated
-s:\_staff\timetable_list\tt_vb_christinich.xml - start
-s:\_staff\timetable_list\tt_vb_christinich.xml - updated
 s:\_staff\timetable_list\tt_np_alekseeva.xml - start
 s:\_staff\timetable_list\tt_np_alekseeva.xml - updated
 s:\_staff\timetable_list\tt_eg_burnaeva.xml - start
 s:\_staff\timetable_list\tt_eg_burnaeva.xml - no changes
+s:\_staff\timetable_list\tt_ai_korobeynikov.xml - start
+s:\_staff\timetable_list\tt_ai_korobeynikov.xml - updated
 s:\_staff\timetable_list\tt_an_pepelyshev.xml - start
 s:\_staff\timetable_list\tt_an_pepelyshev.xml - no changes
+s:\_staff\timetable_list\tt_vb_christinich.xml - start
+s:\_staff\timetable_list\tt_vb_christinich.xml - no changes
 s:\_staff\timetable_list\tt_vn_solntsev.xml - start
 s:\_staff\timetable_list\tt_vn_solntsev.xml - no changes
 s:\_staff\timetable_list\tt_ay_ponomareva.xml - start
-s:\_staff\timetable_list\tt_ay_ponomareva.xml - no changes
-s:\_staff\timetable_list\tt_ai_korobeynikov.xml - start
-s:\_staff\timetable_list\tt_ai_korobeynikov.xml - updated
+s:\_staff\timetable_list\tt_ay_ponomareva.xml - updated
+s:\_staff\timetable_list\tt_ag_bart.xml - start
+s:\_staff\timetable_list\tt_ag_bart.xml - no changes
+s:\_staff\timetable_list\tt_mk_chirkov.xml - start
+s:\_staff\timetable_list\tt_mk_chirkov.xml - no changes
+s:\_staff\timetable_list\tt_pv_shpilev.xml - start
+s:\_staff\timetable_list\tt_pv_shpilev.xml - updated
+s:\_staff\timetable_list\tt_nk_zvonarev.xml - start
+s:\_staff\timetable_list\tt_nk_zvonarev.xml - updated
+s:\_staff\timetable_list\tt_ay_shlemov.xml - start
+s:\_staff\timetable_list\tt_ay_shlemov.xml - no changes
+s:\_staff\timetable_list\tt_nm_moskaleva.xml - start
+s:\_staff\timetable_list\tt_nm_moskaleva.xml - no changes
 s:\_staff\timetable_list\tt_kd_usevich.xml - start
 s:\_staff\timetable_list\tt_kd_usevich.xml - no changes
 s:\_staff\timetable_list\tt_is_scherbakova.xml - start
 s:\_staff\timetable_list\tt_is_scherbakova.xml - no changes
-s:\_staff\timetable_list\tt_pv_shpilev.xml - start
-s:\_staff\timetable_list\tt_pv_shpilev.xml - updated
 s:\_staff\timetable_list\tt_pv_gracheva.xml - start
 s:\_staff\timetable_list\tt_pv_gracheva.xml - no changes
-s:\_staff\timetable_list\tt_ay_shlemov.xml - start
-s:\_staff\timetable_list\tt_ay_shlemov.xml - updated
 s:\_staff\timetable_list\tt_en_mosyagina.xml - start
-s:\_staff\timetable_list\tt_en_mosyagina.xml - updated
-s:\_staff\timetable_list\tt_nm_moskaleva.xml - start
-s:\_staff\timetable_list\tt_nm_moskaleva.xml - no changes
+s:\_staff\timetable_list\tt_en_mosyagina.xml - no changes
+s:\_staff\timetable_list\tt_ap_sizova.xml - start
+s:\_staff\timetable_list\tt_ap_sizova.xml - no changes
 s:\_staff\timetable_list\list.htm - start
 s:\_staff\timetable_list\list.htm - updated
-.\ - finished on  3 сентября 2012 г. at 19:34:34
+.\ - finished on  15 февраля 2017 г. at 19:42:18
 ---------------------------------------------------------------------
-Total build time: 00:00:02.8231615
+Total build time: 00:00:01.2238320
+---------------------------------------------------------------------
+Operating System = Microsoft Windows NT 6.2.9200.0
+Computer Name    = NEG
+Domain           = NEG
+User Name        = nina
+---------------------------------------------------------------------
+.\ - started on  30 августа 2017 г. at 18:48:12
+S:\_staff\timetable_list - start
+S:\_staff\timetable_list - single build
+S:\_staff\timetable_list\build.xml - start
+S:\_staff\timetable_list\build.xml - no changes
+S:\_staff\timetable_list - single build end 
+S:\_staff\timetable_list\tt_sm_ermakov.xml - start
+S:\_staff\timetable_list\tt_sm_ermakov.xml - updated
+S:\_staff\timetable_list\tt_ya_sushkov.xml - start
+S:\_staff\timetable_list\tt_ya_sushkov.xml - updated
+S:\_staff\timetable_list\tt_vb_melas.xml - start
+S:\_staff\timetable_list\tt_vb_melas.xml - updated
+S:\_staff\timetable_list\tt_nk_krivulin.xml - start
+S:\_staff\timetable_list\tt_nk_krivulin.xml - updated
+S:\_staff\timetable_list\tt_ms_ermakov.xml - start
+S:\_staff\timetable_list\tt_ms_ermakov.xml - updated
+S:\_staff\timetable_list\tt_vv_nekrutkin.xml - start
+S:\_staff\timetable_list\tt_vv_nekrutkin.xml - updated
+S:\_staff\timetable_list\tt_ne_golyandina.xml - start
+S:\_staff\timetable_list\tt_ne_golyandina.xml - updated
+S:\_staff\timetable_list\tt_tm_tovstik.xml - start
+S:\_staff\timetable_list\tt_tm_tovstik.xml - updated
+S:\_staff\timetable_list\tt_yn_kashtanov.xml - start
+S:\_staff\timetable_list\tt_yn_kashtanov.xml - updated
+S:\_staff\timetable_list\tt_np_alekseeva.xml - start
+S:\_staff\timetable_list\tt_np_alekseeva.xml - updated
+S:\_staff\timetable_list\tt_eg_burnaeva.xml - start
+S:\_staff\timetable_list\tt_eg_burnaeva.xml - updated
+S:\_staff\timetable_list\tt_ai_korobeynikov.xml - start
+S:\_staff\timetable_list\tt_ai_korobeynikov.xml - updated
+S:\_staff\timetable_list\tt_an_pepelyshev.xml - start
+S:\_staff\timetable_list\tt_an_pepelyshev.xml - no changes
+S:\_staff\timetable_list\tt_vb_christinich.xml - start
+S:\_staff\timetable_list\tt_vb_christinich.xml - no changes
+S:\_staff\timetable_list\tt_vn_solntsev.xml - start
+S:\_staff\timetable_list\tt_vn_solntsev.xml - no changes
+S:\_staff\timetable_list\tt_ay_ponomareva.xml - start
+S:\_staff\timetable_list\tt_ay_ponomareva.xml - updated
+S:\_staff\timetable_list\tt_ag_bart.xml - start
+S:\_staff\timetable_list\tt_ag_bart.xml - no changes
+S:\_staff\timetable_list\tt_mk_chirkov.xml - start
+S:\_staff\timetable_list\tt_mk_chirkov.xml - no changes
+S:\_staff\timetable_list\tt_pv_shpilev.xml - start
+S:\_staff\timetable_list\tt_pv_shpilev.xml - updated
+S:\_staff\timetable_list\tt_nk_zvonarev.xml - start
+S:\_staff\timetable_list\tt_nk_zvonarev.xml - updated
+S:\_staff\timetable_list\tt_ay_shlemov.xml - start
+S:\_staff\timetable_list\tt_ay_shlemov.xml - no changes
+S:\_staff\timetable_list\tt_nm_moskaleva.xml - start
+S:\_staff\timetable_list\tt_nm_moskaleva.xml - no changes
+S:\_staff\timetable_list\tt_kd_usevich.xml - start
+S:\_staff\timetable_list\tt_kd_usevich.xml - no changes
+S:\_staff\timetable_list\tt_is_scherbakova.xml - start
+S:\_staff\timetable_list\tt_is_scherbakova.xml - no changes
+S:\_staff\timetable_list\tt_pv_gracheva.xml - start
+S:\_staff\timetable_list\tt_pv_gracheva.xml - no changes
+S:\_staff\timetable_list\tt_en_mosyagina.xml - start
+S:\_staff\timetable_list\tt_en_mosyagina.xml - no changes
+S:\_staff\timetable_list\tt_ap_sizova.xml - start
+S:\_staff\timetable_list\tt_ap_sizova.xml - no changes
+S:\_staff\timetable_list\list.htm - start
+S:\_staff\timetable_list\list.htm - updated
+.\ - finished on  30 августа 2017 г. at 18:48:19
+---------------------------------------------------------------------
+Total build time: 00:00:06.7123808
+---------------------------------------------------------------------
+Operating System = Microsoft Windows NT 6.2.9200.0
+Computer Name    = NEG
+Domain           = NEG
+User Name        = nina
+---------------------------------------------------------------------
+.\ - started on  1 сентября 2018 г. at 21:43:20
+S:\_staff\timetable_list - start
+S:\_staff\timetable_list - single build
+S:\_staff\timetable_list\build.xml - start
+S:\_staff\timetable_list\build.xml - no changes
+S:\_staff\timetable_list - single build end 
+S:\_staff\timetable_list\tt_sm_ermakov.xml - start
+S:\_staff\timetable_list\tt_sm_ermakov.xml - updated
+S:\_staff\timetable_list\tt_ya_sushkov.xml - start
+S:\_staff\timetable_list\tt_ya_sushkov.xml - updated
+S:\_staff\timetable_list\tt_vb_melas.xml - start
+S:\_staff\timetable_list\tt_vb_melas.xml - updated
+S:\_staff\timetable_list\tt_nk_krivulin.xml - start
+S:\_staff\timetable_list\tt_nk_krivulin.xml - updated
+S:\_staff\timetable_list\tt_ms_ermakov.xml - start
+S:\_staff\timetable_list\tt_ms_ermakov.xml - updated
+S:\_staff\timetable_list\tt_vv_nekrutkin.xml - start
+S:\_staff\timetable_list\tt_vv_nekrutkin.xml - updated
+S:\_staff\timetable_list\tt_ne_golyandina.xml - start
+S:\_staff\timetable_list\tt_ne_golyandina.xml - updated
+S:\_staff\timetable_list\tt_tm_tovstik.xml - start
+S:\_staff\timetable_list\tt_tm_tovstik.xml - updated
+S:\_staff\timetable_list\tt_yn_kashtanov.xml - start
+S:\_staff\timetable_list\tt_yn_kashtanov.xml - updated
+S:\_staff\timetable_list\tt_np_alekseeva.xml - start
+S:\_staff\timetable_list\tt_np_alekseeva.xml - updated
+S:\_staff\timetable_list\tt_eg_burnaeva.xml - start
+S:\_staff\timetable_list\tt_eg_burnaeva.xml - updated
+S:\_staff\timetable_list\tt_ai_korobeynikov.xml - start
+S:\_staff\timetable_list\tt_ai_korobeynikov.xml - updated
+S:\_staff\timetable_list\tt_an_pepelyshev.xml - start
+S:\_staff\timetable_list\tt_an_pepelyshev.xml - no changes
+S:\_staff\timetable_list\tt_vb_christinich.xml - start
+S:\_staff\timetable_list\tt_vb_christinich.xml - no changes
+S:\_staff\timetable_list\tt_vn_solntsev.xml - start
+S:\_staff\timetable_list\tt_vn_solntsev.xml - no changes
+S:\_staff\timetable_list\tt_ay_ponomareva.xml - start
+S:\_staff\timetable_list\tt_ay_ponomareva.xml - updated
+S:\_staff\timetable_list\tt_ag_bart.xml - start
+S:\_staff\timetable_list\tt_ag_bart.xml - no changes
+S:\_staff\timetable_list\tt_mk_chirkov.xml - start
+S:\_staff\timetable_list\tt_mk_chirkov.xml - no changes
+S:\_staff\timetable_list\tt_pv_shpilev.xml - start
+S:\_staff\timetable_list\tt_pv_shpilev.xml - updated
+S:\_staff\timetable_list\tt_nk_zvonarev.xml - start
+S:\_staff\timetable_list\tt_nk_zvonarev.xml - updated
+S:\_staff\timetable_list\tt_ay_shlemov.xml - start
+S:\_staff\timetable_list\tt_ay_shlemov.xml - no changes
+S:\_staff\timetable_list\tt_nm_moskaleva.xml - start
+S:\_staff\timetable_list\tt_nm_moskaleva.xml - no changes
+S:\_staff\timetable_list\tt_kd_usevich.xml - start
+S:\_staff\timetable_list\tt_kd_usevich.xml - no changes
+S:\_staff\timetable_list\tt_is_scherbakova.xml - start
+S:\_staff\timetable_list\tt_is_scherbakova.xml - no changes
+S:\_staff\timetable_list\tt_pv_gracheva.xml - start
+S:\_staff\timetable_list\tt_pv_gracheva.xml - no changes
+S:\_staff\timetable_list\tt_en_mosyagina.xml - start
+S:\_staff\timetable_list\tt_en_mosyagina.xml - no changes
+S:\_staff\timetable_list\tt_ap_sizova.xml - start
+S:\_staff\timetable_list\tt_ap_sizova.xml - no changes
+S:\_staff\timetable_list\list.htm - start
+S:\_staff\timetable_list\list.htm - updated
+.\ - finished on  1 сентября 2018 г. at 21:43:22
+---------------------------------------------------------------------
+Total build time: 00:00:01.5420673
+---------------------------------------------------------------------
+Operating System = Microsoft Windows NT 6.2.9200.0
+Computer Name    = NEG
+Domain           = NEG
+User Name        = nina
+---------------------------------------------------------------------
+.\ - started on  14 февраля 2019 г. at 7:11:23
+S:\_staff\timetable_list - start
+S:\_staff\timetable_list - single build
+S:\_staff\timetable_list\build.xml - start
+S:\_staff\timetable_list\build.xml - no changes
+S:\_staff\timetable_list - single build end 
+S:\_staff\timetable_list\tt_sm_ermakov.xml - start
+S:\_staff\timetable_list\tt_sm_ermakov.xml - updated
+S:\_staff\timetable_list\tt_ya_sushkov.xml - start
+S:\_staff\timetable_list\tt_ya_sushkov.xml - updated
+S:\_staff\timetable_list\tt_vb_melas.xml - start
+S:\_staff\timetable_list\tt_vb_melas.xml - updated
+S:\_staff\timetable_list\tt_nk_krivulin.xml - start
+S:\_staff\timetable_list\tt_nk_krivulin.xml - updated
+S:\_staff\timetable_list\tt_ms_ermakov.xml - start
+S:\_staff\timetable_list\tt_ms_ermakov.xml - updated
+S:\_staff\timetable_list\tt_vv_nekrutkin.xml - start
+S:\_staff\timetable_list\tt_vv_nekrutkin.xml - updated
+S:\_staff\timetable_list\tt_ne_golyandina.xml - start
+S:\_staff\timetable_list\tt_ne_golyandina.xml - updated
+S:\_staff\timetable_list\tt_tm_tovstik.xml - start
+S:\_staff\timetable_list\tt_tm_tovstik.xml - updated
+S:\_staff\timetable_list\tt_yn_kashtanov.xml - start
+S:\_staff\timetable_list\tt_yn_kashtanov.xml - updated
+S:\_staff\timetable_list\tt_np_alekseeva.xml - start
+S:\_staff\timetable_list\tt_np_alekseeva.xml - updated
+S:\_staff\timetable_list\tt_eg_burnaeva.xml - start
+S:\_staff\timetable_list\tt_eg_burnaeva.xml - updated
+S:\_staff\timetable_list\tt_ai_korobeynikov.xml - start
+S:\_staff\timetable_list\tt_ai_korobeynikov.xml - updated
+S:\_staff\timetable_list\tt_an_pepelyshev.xml - start
+S:\_staff\timetable_list\tt_an_pepelyshev.xml - no changes
+S:\_staff\timetable_list\tt_vb_christinich.xml - start
+S:\_staff\timetable_list\tt_vb_christinich.xml - no changes
+S:\_staff\timetable_list\tt_vn_solntsev.xml - start
+S:\_staff\timetable_list\tt_vn_solntsev.xml - no changes
+S:\_staff\timetable_list\tt_ay_ponomareva.xml - start
+S:\_staff\timetable_list\tt_ay_ponomareva.xml - updated
+S:\_staff\timetable_list\tt_ag_bart.xml - start
+S:\_staff\timetable_list\tt_ag_bart.xml - no changes
+S:\_staff\timetable_list\tt_mk_chirkov.xml - start
+S:\_staff\timetable_list\tt_mk_chirkov.xml - no changes
+S:\_staff\timetable_list\tt_pv_shpilev.xml - start
+S:\_staff\timetable_list\tt_pv_shpilev.xml - updated
+S:\_staff\timetable_list\tt_nk_zvonarev.xml - start
+S:\_staff\timetable_list\tt_nk_zvonarev.xml - updated
+S:\_staff\timetable_list\tt_ay_shlemov.xml - start
+S:\_staff\timetable_list\tt_ay_shlemov.xml - no changes
+S:\_staff\timetable_list\tt_nm_moskaleva.xml - start
+S:\_staff\timetable_list\tt_nm_moskaleva.xml - no changes
+S:\_staff\timetable_list\tt_kd_usevich.xml - start
+S:\_staff\timetable_list\tt_kd_usevich.xml - no changes
+S:\_staff\timetable_list\tt_is_scherbakova.xml - start
+S:\_staff\timetable_list\tt_is_scherbakova.xml - no changes
+S:\_staff\timetable_list\tt_pv_gracheva.xml - start
+S:\_staff\timetable_list\tt_pv_gracheva.xml - no changes
+S:\_staff\timetable_list\tt_en_mosyagina.xml - start
+S:\_staff\timetable_list\tt_en_mosyagina.xml - no changes
+S:\_staff\timetable_list\tt_ap_sizova.xml - start
+S:\_staff\timetable_list\tt_ap_sizova.xml - no changes
+S:\_staff\timetable_list\list.htm - start
+S:\_staff\timetable_list\list.htm - updated
+.\ - finished on  14 февраля 2019 г. at 7:11:30
+---------------------------------------------------------------------
+Total build time: 00:00:06.9063523
+---------------------------------------------------------------------
+Operating System = Microsoft Windows NT 6.2.9200.0
+Computer Name    = NEG
+Domain           = NEG
+User Name        = nina
+---------------------------------------------------------------------
+.\ - started on  14 февраля 2019 г. at 7:11:34
+S:\_staff\timetable_list - start
+S:\_staff\timetable_list - single build
+S:\_staff\timetable_list\build.xml - start
+S:\_staff\timetable_list\build.xml - no changes
+S:\_staff\timetable_list - single build end 
+S:\_staff\timetable_list\tt_sm_ermakov.xml - start
+S:\_staff\timetable_list\tt_sm_ermakov.xml - no changes
+S:\_staff\timetable_list\tt_ya_sushkov.xml - start
+S:\_staff\timetable_list\tt_ya_sushkov.xml - no changes
+S:\_staff\timetable_list\tt_vb_melas.xml - start
+S:\_staff\timetable_list\tt_vb_melas.xml - no changes
+S:\_staff\timetable_list\tt_nk_krivulin.xml - start
+S:\_staff\timetable_list\tt_nk_krivulin.xml - no changes
+S:\_staff\timetable_list\tt_ms_ermakov.xml - start
+S:\_staff\timetable_list\tt_ms_ermakov.xml - no changes
+S:\_staff\timetable_list\tt_vv_nekrutkin.xml - start
+S:\_staff\timetable_list\tt_vv_nekrutkin.xml - no changes
+S:\_staff\timetable_list\tt_ne_golyandina.xml - start
+S:\_staff\timetable_list\tt_ne_golyandina.xml - no changes
+S:\_staff\timetable_list\tt_tm_tovstik.xml - start
+S:\_staff\timetable_list\tt_tm_tovstik.xml - no changes
+S:\_staff\timetable_list\tt_yn_kashtanov.xml - start
+S:\_staff\timetable_list\tt_yn_kashtanov.xml - no changes
+S:\_staff\timetable_list\tt_np_alekseeva.xml - start
+S:\_staff\timetable_list\tt_np_alekseeva.xml - no changes
+S:\_staff\timetable_list\tt_eg_burnaeva.xml - start
+S:\_staff\timetable_list\tt_eg_burnaeva.xml - no changes
+S:\_staff\timetable_list\tt_ai_korobeynikov.xml - start
+S:\_staff\timetable_list\tt_ai_korobeynikov.xml - no changes
+S:\_staff\timetable_list\tt_an_pepelyshev.xml - start
+S:\_staff\timetable_list\tt_an_pepelyshev.xml - no changes
+S:\_staff\timetable_list\tt_vb_christinich.xml - start
+S:\_staff\timetable_list\tt_vb_christinich.xml - no changes
+S:\_staff\timetable_list\tt_vn_solntsev.xml - start
+S:\_staff\timetable_list\tt_vn_solntsev.xml - no changes
+S:\_staff\timetable_list\tt_ay_ponomareva.xml - start
+S:\_staff\timetable_list\tt_ay_ponomareva.xml - no changes
+S:\_staff\timetable_list\tt_ag_bart.xml - start
+S:\_staff\timetable_list\tt_ag_bart.xml - no changes
+S:\_staff\timetable_list\tt_mk_chirkov.xml - start
+S:\_staff\timetable_list\tt_mk_chirkov.xml - no changes
+S:\_staff\timetable_list\tt_pv_shpilev.xml - start
+S:\_staff\timetable_list\tt_pv_shpilev.xml - no changes
+S:\_staff\timetable_list\tt_nk_zvonarev.xml - start
+S:\_staff\timetable_list\tt_nk_zvonarev.xml - no changes
+S:\_staff\timetable_list\tt_ay_shlemov.xml - start
+S:\_staff\timetable_list\tt_ay_shlemov.xml - no changes
+S:\_staff\timetable_list\tt_nm_moskaleva.xml - start
+S:\_staff\timetable_list\tt_nm_moskaleva.xml - no changes
+S:\_staff\timetable_list\tt_kd_usevich.xml - start
+S:\_staff\timetable_list\tt_kd_usevich.xml - no changes
+S:\_staff\timetable_list\tt_is_scherbakova.xml - start
+S:\_staff\timetable_list\tt_is_scherbakova.xml - no changes
+S:\_staff\timetable_list\tt_pv_gracheva.xml - start
+S:\_staff\timetable_list\tt_pv_gracheva.xml - no changes
+S:\_staff\timetable_list\tt_en_mosyagina.xml - start
+S:\_staff\timetable_list\tt_en_mosyagina.xml - no changes
+S:\_staff\timetable_list\tt_ap_sizova.xml - start
+S:\_staff\timetable_list\tt_ap_sizova.xml - no changes
+S:\_staff\timetable_list\list.htm - start
+S:\_staff\timetable_list\list.htm - no changes
+.\ - finished on  14 февраля 2019 г. at 7:11:35
+---------------------------------------------------------------------
+Total build time: 00:00:01.1719101

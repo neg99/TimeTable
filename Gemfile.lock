@@ -23,6 +23,3 @@ DEPENDENCIES
   haml
   nokogiri-happymapper (= 0.5.6)
   sinatra
-
-BUNDLED WITH
-   1.10.6
