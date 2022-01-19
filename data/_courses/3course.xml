@@ -1,136 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
-<timetable year="2019" semester="5">
+<timetable year="2020" semester="5">
     <weekday id="mon">
-        <two_hours no="1"/>
-        <two_hours no="2"/>
-        <two_hours no="3"/>
-        <two_hours no="4">
+        <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location></location>
-                <course>
-                    <name>Англ.яз.</name>
-                    <prof></prof>
-                </course>
-            </lesson>
-        </two_hours>
-        <two_hours no="5">
-            <lesson type="dep" spec="all">
-                <location>06</location>
+                <location>дистанционно</location>
                 <course>
                     <name>Теория вероятностей</name>
                     <prof>Фролов А.Н.</prof>
                 </course>
             </lesson>
         </two_hours>
-    </weekday>
-    <weekday id="tue">
-        <two_hours no="1">
+        <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location>2520</location>
+                <location>дистанционно</location>
                 <course>
-                    <name>Математический анализ</name>
-                    <prof>Савельева А.Г.</prof>
+                    <name>Математический анализ, лекции</name>
+                    <prof>Лодкин</prof>
                 </course>
             </lesson>
         </two_hours>
+        <two_hours no="3">
+            <lesson type="dep" spec="all">
+                <location>дистанционно</location>
+                <course>
+                    <name>Безопасность жизнедеятельности</name>
+                    <prof>Гурьянов</prof>
+                </course>
+            </lesson>
+        </two_hours>
+        <two_hours no="4">
+            <lesson type="dep" spec="all">
+                <location>дистанционно</location>
+                <course>
+                    <name>Иностр.яз.</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+        </two_hours>
+        <two_hours no="5"/>
+    </weekday>
+    <weekday id="tue">
+        <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location>2446</location>
-                <course id="bsa_stat_intro"/>
+                <location>2414</location>
+                <course id="bmm_prog_c_pract"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location>не будет</location>
+                <location>2446</location>
                 <course id="bsm_stat_intro"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sa">
-                <location>не будет</location>
+                <location>2412</location>
                 <course id="bmm_prog_c_lang"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location>3504</location>
+                <location>1508</location>
                 <course id="bsm_prog_c_lang"/>
             </lesson>
         </two_hours>
-        <two_hours no="4">
-            <lesson type="dep" spec="all">
-                <location>01</location>
-                <course>
-                    <name>Безопасность жизнедеятельности</name>
-                    <prof>Хмелев</prof>
-                </course>
-            </lesson>
-        </two_hours>
-        <two_hours no="5">
-            <lesson type="dep" spec="all">
-                <location>01</location>
-                <course>
-                    <name>Безопасность жизнедеятельности</name>
-                    <prof>Хмелев</prof>
-                </course>
-                <fortnightly type="1"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="4"/>
+        <two_hours no="5"/>
     </weekday>
     <weekday id="wed">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location>06  (до 15.11)</location>
+                <location>дистанционно</location>
                 <course>
-                    <name>Экстремальные задачи</name>
-                    <prof>Григорьева Н.С.</prof>
+                    <name>Математический анализ (практ.)</name>
+                    <prof>Лодкин</prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location>06</location>
+                <location>дистанционно</location>
                 <course>
-                    <name>Математический анализ</name>
-                    <prof>Александров А.Б.</prof>
+                    <name>Экстремальные задачи (практ.)</name>
+                    <prof>Абрамовская</prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location>2520</location>
-                <course id="ball_teorver_pract"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="4">
-            <lesson type="dep" spec="all">
-                <location>06 (до 15.11)</location>
-                <course>
-                    <name>Экстремальные задачи</name>
-                    <prof>Григорьева Н.С.</prof>
-                </course>
-                <fortnightly type="2"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="5"/>
-    </weekday>
-    <weekday id="thu">
-        <two_hours no="1">
-            <lesson type="dep" spec="all">
-                <location>2518</location>
-                <course id="ball_simul_discr"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="2">
-            <lesson type="chair" spec="sa">
-                <location>не будет</location>
-                <course id="bmm_prog_c_pract"/>
-            </lesson>
-            <lesson type="chair" spec="sm">
-                <location>2412</location>
-                <course id="bsm_prog_c_pract"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location></location>
+                <location>дистанционно</location>
                 <course>
                     <name>Англ.язык</name>
                     <prof></prof>
@@ -139,10 +95,34 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
+                <location>дистанционно</location>
+                <course>
+                    <name>Экстремальные задачи (лекции)</name>
+                    <prof>Григорьева Н.С., Осмоловский В.Г.</prof>
+                </course>
+            </lesson>
+        </two_hours>
+        <two_hours no="5"/>
+    </weekday>
+    <weekday id="thu">
+        <two_hours no="1"/>
+        <two_hours no="2">
+            <lesson type="chair" spec="sa">
+                <location>2446</location>
+                <course id="bsa_stat_intro"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>2408</location>
+                <course id="bsm_prog_c_pract"/>
+            </lesson>
+        </two_hours>
+        <two_hours no="3">
+            <lesson type="dep" spec="all">
                 <location>2414</location>
                 <course id="ball_tex"/>
             </lesson>
         </two_hours>
+        <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
     <weekday id="fri">
@@ -177,28 +157,21 @@
         <two_hours no="5"/>
     </weekday>
     <weekday id="sat">
-        <two_hours no="1"/>
+        <two_hours no="1">
+            <lesson type="dep" spec="all">
+                <location>дистанционно</location>
+                <course id="ball_teorver_pract"/>
+            </lesson>
+        </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location>2524</location>
-                <course>
-                    <name>Экстремальные задачи</name>
-                    <prof>Абрамовская</prof>
-                </course>
-                <fortnightly type="1"/>
-            </lesson>
-            <lesson type="dep" spec="all">
-                <location>3532</location>
-                <course>
-                    <name>Функциональный анализ</name>
-                    <prof>Додонов Н.Ю.</prof>
-                </course>
-                <fortnightly type="2"/>
+                <location>дистанционно</location>
+                <course id="ball_simul_discr"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location>05</location>
+                <location>дистанционно</location>
                 <course>
                     <name>Функциональный анализ</name>
                     <prof>Додонов Н.Ю.</prof>
@@ -207,7 +180,7 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location>05</location>
+                <location>дистанционно</location>
                 <course>
                     <name>Функциональный анализ</name>
                     <prof>Додонов Н.Ю.</prof>
@@ -215,6 +188,15 @@
                 <fortnightly type="2"/>
             </lesson>
         </two_hours>
-        <two_hours no="5"/>
+        <two_hours no="5">
+            <lesson type="dep" spec="all">
+                <location>дистанционно</location>
+                <course>
+                    <name>Функциональный анализ</name>
+                    <prof>Додонов Н.Ю.</prof>
+                </course>
+                <fortnightly type="1"/>
+            </lesson>
+        </two_hours>
     </weekday>
 </timetable>

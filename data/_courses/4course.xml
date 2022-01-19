@@ -1,43 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
-<timetable year="2019" semester="7">
+<timetable year="2020" semester="7">
     <weekday id="mon">
         <two_hours no="1"/>
         <two_hours no="2"/>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>дистанционно</location>
                 <course>
-                    <name>Ин.язык</name>
-                    <prof></prof>
+                    <name>Методы вычислений</name>
+                    <prof>Рябов В.М.</prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>дистанционно</location>
                 <course>
                     <name>Ин.язык</name>
                     <prof></prof>
                 </course>
             </lesson>
         </two_hours>
-        <two_hours no="5"/>
+        <two_hours no="5">
+            <lesson type="dep" spec="all">
+                <location>дистанционно</location>
+                <course>
+                    <name>Ин.язык</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+        </two_hours>
     </weekday>
     <weekday id="tue">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location>1522</location>
+                <location>2507</location>
                 <course id="ball_stat" part="pract"/>
             </lesson>
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
                 <location>2406</location>
-                <course>
-                    <name>Методы вычислений (подгруппа 1)</name>
-                    <prof>Доронина</prof>
-                </course>
+                <course id="ball_desicion"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
@@ -47,74 +52,36 @@
             </lesson>
         </two_hours>
         <two_hours no="4">
-            <lesson type="dep" spec="all">
-                <location>1522</location>
-                <course id="ball_exper_design"/>
+            <lesson type="chair" spec="sm">
+                <location>2507</location>
+                <course id="bsm_appl_stat"/>
             </lesson>
         </two_hours>
         <two_hours no="5"/>
     </weekday>
     <weekday id="wed">
-        <two_hours no="1">
-            <lesson type="chair" spec="sa">
-                <location>?</location>
-                <course id="bsa_montecarlo"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="1"/>
         <two_hours no="2">
-            <lesson type="chair" spec="sa">
-                <location>?</location>
-                <course id="bsa_montecarlo"/>
-            </lesson>
             <lesson type="chair" spec="sm">
-                <location>2511</location>
+                <location>дистанционно</location>
                 <course id="bsm_statmod"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location>2511</location>
-                <course id="ball_desicion"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="4"/>
-        <two_hours no="5"/>
-    </weekday>
-    <weekday id="thu">
-        <two_hours no="1">
             <lesson type="chair" spec="sm">
-                <location>3381</location>
-                <course id="bsm_prog_cpp_advanced"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="2">
-            <lesson type="dep" spec="all">
-                <location>07</location>
-                <course>
-                    <name>Методы вычислений</name>
-                    <prof>Рябов В.М.</prof>
-                </course>
-            </lesson>
-        </two_hours>
-        <two_hours no="3">
-            <lesson type="chair" spec="sa">
-                <location>?</location>
-                <course id="bmm_appl_stat"/>
-            </lesson>
-            <lesson type="chair" spec="sm">
-                <location>2504</location>
-                <course id="bsm_appl_stat"/>
+                <location>дистанционно</location>
+                <course id="bsm_statmod"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
-            <lesson type="chair" spec="sm">
-                <location>2504</location>
-                <course id="bsm_statmod"/>
+            <lesson type="dep" spec="all">
+                <location>дистанционно</location>
+                <course id="ball_exper_design"/>
             </lesson>
         </two_hours>
         <two_hours no="5">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>дистанционно</location>
                 <course>
                     <name>Ин.язык</name>
                     <prof></prof>
@@ -122,45 +89,64 @@
             </lesson>
         </two_hours>
     </weekday>
-    <weekday id="fri">
+    <weekday id="thu">
         <two_hours no="1"/>
         <two_hours no="2">
-            <lesson type="chair" spec="sa">
+            <lesson type="dep" spec="all">
                 <location>2406</location>
-                <course id="bsa_prog_cpp_advanced"/>
+                <course>
+                    <name>Методы вычислений</name>
+                    <prof>Доронина</prof>
+                </course>
             </lesson>
         </two_hours>
         <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location>06</location>
-                <course id="ball_stat" part="lect"/>
+            <lesson type="chair" spec="sa">
+                <location>2503</location>
+                <course id="bmm_appl_stat"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>3381</location>
+                <course id="bsm_prog_cpp_advanced"/>
             </lesson>
         </two_hours>
         <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
+    <weekday id="fri">
+        <two_hours no="1"/>
+        <two_hours no="2"/>
+        <two_hours no="3">
+            <lesson type="dep" spec="all">
+                <location>дистанционно</location>
+                <course id="ball_stat" part="lect"/>
+            </lesson>
+        </two_hours>
+        <two_hours no="4">
+            <lesson type="chair" spec="sa">
+                <location>дистанционно</location>
+                <course id="bsa_montecarlo"/>
+            </lesson>
+        </two_hours>
+        <two_hours no="5">
+            <lesson type="chair" spec="sa">
+                <location>дистанционно</location>
+                <course id="bsa_montecarlo"/>
+            </lesson>
+        </two_hours>
+    </weekday>
     <weekday id="sat">
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location>06</location>
+                <location>дистанционно</location>
                 <course>
                     <name>Философия</name>
                     <prof>Краснухина Е.К.</prof>
                 </course>
-                <fortnightly type="1"/>
             </lesson>
         </two_hours>
-        <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location>06</location>
-                <course>
-                    <name>Философия</name>
-                    <prof>Краснухина Е.К.</prof>
-                </course>
-                <fortnightly type="1"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="3"/>
         <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>

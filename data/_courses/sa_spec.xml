@@ -137,37 +137,37 @@
 		<prof id="ne_golyandina"/>
 </course>
 <course semester="9" year="5" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_prog_data">
-		<name xml:lang="ru">Программирование для анализа данных</name>
+		<name xml:lang="ru">Курс 1. Программирование для анализа данных</name>
 		<prof id="ai_korobeynikov"/>
 </course>
 <course semester="9" year="5" class="элект." extras="" hours="2" exam="зач." year_equiv="0.5" alias="sa_real_stat">
-		<name xml:lang="ru">Применение статистических методов к реальным данным</name>
+		<name xml:lang="ru">Курс 2. Применение статистических методов к реальным данным</name>
 		<prof id="np_alekseeva"/>
 </course>
 	
 	<course semester="10" year="5" class="элект." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_adv_stat">
-		<name xml:lang="ru">Дополнительные главы математической статистики</name>
+		<name xml:lang="ru">Курс 1. Задачи математической статистики</name>
 		<prof id="ms_ermakov"/>
 	</course>
  <course semester="10" year="5" class="элект." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_stoch_comp">
-		<name xml:lang="ru">Метод Монте-Карло и параллельные вычисления</name>
+		<name xml:lang="ru">Курс 4. Метод Монте-Карло и параллельные вычисления</name>
 		<prof id="sm_ermakov"/>
 </course>
 <course semester="10" year="5" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_random_fields">
-		<name xml:lang="ru">  Случайные поля и динамические методы Монте-Карло</name>
+		<name xml:lang="ru"> Курс 3. Случайные поля и динамические методы Монте-Карло</name>
 		<prof id="tm_tovstik"/>
 	</course>
 <course semester="10" year="5" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_parallel_comp">
-		<name xml:lang="ru">Модели финансовой математики и статистическое моделирование</name>
+		<name xml:lang="ru">Курс 2. Страховые и финансовые вероятностные модели</name>
 		<prof id="tm_tovstik"/>
 </course>
 
 <course semester="11" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_stoch_comp2">
-		<name xml:lang="ru">Стохастические вычислительные методы</name>
-		<prof id="sm_ermakov"/>
+		<name xml:lang="ru">Курс 2. Стохастические вычислительные методы</name>
+		<prof id="vb_melas"/>
 </course>
 <course semester="11" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_fin_prog">
-		<name xml:lang="ru">Параллельное программирование вероятностных задач</name>
+		<name xml:lang="ru">Курс 1. Параллельное программирование вероятностных задач</name>
 		<prof id="pv_shpilev"/>
 </course>
 <course semester="11" year="6" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_histmath">
@@ -175,26 +175,26 @@
 		<prof id="eg_burnaeva"/>
 </course>
 <course semester="11" year="6" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_communication">
-		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях - I</name>
-		<prof id="ai_korobeynikov"/>
+		<name xml:lang="ru">Статистическое и машинное обучение</name>
+		<prof id="ne_golyandina"/>
 </course>
 
 <course semester="11" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_optim">
-		<name xml:lang="ru">Аналитические методы решения многокритериальных задач</name>
+		<name xml:lang="ru">Курс 2. Аналитические методы решения многокритериальных задач</name>
 		<prof id="pv_shpilev"/>
 </course>
 
 <course semester="12" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_tropical">
-		<name xml:lang="ru"> Модели и методы тропической математики</name>
+		<name xml:lang="ru"> Курс 1. Модели и методы тропической математики</name>
 		<prof id="nk_krivulin"/>
 </course>
  
 <course semester="12" year="6" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_communication2">
-		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях - II</name>
+		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях</name>
 		<prof id="vb_melas"/>
 </course>
 <course semester="12" year="6" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_science_approach">
-		<name xml:lang="ru">Научно-обоснованный подход к моделированию реальных данных</name>
+		<name xml:lang="ru">Статистическое обучение для моделирования и прогнозирования временных рядов</name>
 		<prof id="ne_golyandina"/>
 </course>
 
